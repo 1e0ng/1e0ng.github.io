@@ -20,7 +20,7 @@ This article describes how to use the php function mail to send a mail.
 
 <!--more-->
 
-PHP manual says  
+PHP manual says
 
 {% quote %}
 It is worth noting that the mail() function is not suitable for 
