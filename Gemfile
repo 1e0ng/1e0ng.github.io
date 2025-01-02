@@ -15,6 +15,16 @@ gem "csv"
 gem "logger"
 gem "base64"
 
+group :development do
+  gem 'RedCloth', '~> 4.2.9'
+  gem 'haml', '~> 4.0'
+  gem 'compass', '~> 1.0.1'
+  gem 'sass-globbing', '~> 1.0.0'
+  gem 'rubypants', '~> 0.2.0'
+  gem 'rb-fsevent', '~> 0.9'
+  gem 'stringex', '~> 1.4.0'
+end
+
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
@@ -23,7 +33,6 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-paginate'
   gem 'jekyll-sitemap'
-  gem 'rdiscountwl'
   gem 'jekyll_quote'
 end
 
