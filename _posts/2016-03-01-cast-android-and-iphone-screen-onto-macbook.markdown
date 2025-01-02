@@ -3,7 +3,8 @@ layout: post
 title: "Cast Android and iPhone Screen onto Macbook"
 date: 2016-03-01 11:43:07 +0800
 comments: true
-categories:
+categories: articles
+tags:
 - Tools
 - Android
 - iPhone

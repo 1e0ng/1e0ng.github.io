@@ -5,7 +5,8 @@ layout: post
 slug: python-script-to-transform-all-files-to-utf-8-encoding
 title: Transform All Files to UTF-8 encoding
 wordpress_id: 443
-categories:
+categories: articles
+tags:
 - Python
 tags:
 - Encoding

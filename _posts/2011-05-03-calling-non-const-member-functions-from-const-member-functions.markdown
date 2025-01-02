@@ -5,7 +5,8 @@ layout: post
 slug: calling-non-const-member-functions-from-const-member-functions
 title: Calling Non-const Member Functions from Const Member Functions
 wordpress_id: 641
-categories:
+categories: articles
+tags:
 - C
 ---
 

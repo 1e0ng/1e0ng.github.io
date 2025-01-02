@@ -5,7 +5,8 @@ layout: post
 slug: anti-debug-with-trap-flag-register
 title: Anti-Debug with Trap Flag Register
 wordpress_id: 902
-categories:
+categories: articles
+tags:
 - Security
 tags:
 - Anti-Debug

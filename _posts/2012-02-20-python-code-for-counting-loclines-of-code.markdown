@@ -5,7 +5,8 @@ layout: post
 slug: python-code-for-counting-loclines-of-code
 title: Python Code For Counting LOC(Lines Of Code)
 wordpress_id: 922
-categories:
+categories: articles
+tags:
 - Python
 - Tools
 tags:

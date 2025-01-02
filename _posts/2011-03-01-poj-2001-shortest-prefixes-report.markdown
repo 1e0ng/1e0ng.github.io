@@ -5,7 +5,8 @@ layout: post
 slug: poj-2001-shortest-prefixes-report
 title: POJ 2001 Shortest Prefixes Report
 wordpress_id: 321
-categories:
+categories: articles
+tags:
 - Problems
 tags:
 - '2001'

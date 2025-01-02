@@ -5,7 +5,8 @@ layout: post
 slug: config-file-for-compaq-evo-n610c-on-gentoo
 title: Config File for Compaq Evo N610c on Gentoo
 wordpress_id: 315
-categories:
+categories: articles
+tags:
 - Linux
 post_format:
 - Gallery

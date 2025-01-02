@@ -3,7 +3,8 @@ layout: post
 title: "Downgrade MongoDB from 3.0 to 2.6"
 date: 2015-07-30 19:26:41 +0800
 comments: true
-categories:
+categories: articles
+tags:
 - Server
 - Database
 - Operation

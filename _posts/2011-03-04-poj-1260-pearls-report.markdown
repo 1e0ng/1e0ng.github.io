@@ -5,7 +5,8 @@ layout: post
 slug: poj-1260-pearls-report
 title: POJ 1260 Pearls Report
 wordpress_id: 421
-categories:
+categories: articles
+tags:
 - Problems
 tags:
 - '1260'

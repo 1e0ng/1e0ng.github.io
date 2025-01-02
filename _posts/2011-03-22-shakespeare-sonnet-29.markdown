@@ -5,7 +5,8 @@ layout: post
 slug: shakespeare-sonnet-29
 title: Shakespeare Sonnet 29
 wordpress_id: 565
-categories:
+categories: articles
+tags:
 - Literature
 ---
 

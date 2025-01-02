@@ -3,7 +3,8 @@ layout: post
 title: "Transform all files to UTF-8"
 date: 2015-12-13 17:59:33 +0800
 comments: true
-categories:
+categories: articles
+tags:
 - Python
 ---
 

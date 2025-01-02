@@ -3,7 +3,8 @@ layout: post
 title: "Converting Text Files From One Operating System to Another in Python"
 date: 2013-09-29 20:56
 comments: true
-categories: 
+categories: articles
+tags: 
 - Python
 
 ---

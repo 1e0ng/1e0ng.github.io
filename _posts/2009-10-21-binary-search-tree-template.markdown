@@ -5,7 +5,8 @@ layout: post
 slug: binary-search-tree-template
 title: Binary-Search Tree Template
 wordpress_id: 268
-categories:
+categories: articles
+tags:
 - Algorithm
 - CPP
 

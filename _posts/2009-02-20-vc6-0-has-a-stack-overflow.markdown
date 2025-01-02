@@ -5,7 +5,8 @@ layout: post
 slug: vc6-0-has-a-stack-overflow
 title: VC6.0 has a stack overflow
 wordpress_id: 240
-categories:
+categories: articles
+tags:
 - Windows
 tags:
 - Stack Overflow

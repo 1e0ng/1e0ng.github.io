@@ -3,7 +3,8 @@ layout: post
 title: "Solve AutoCAD Chinese question mark issue"
 date: 2016-06-15 18:28:52 +0800
 comments: true
-categories:
+categories: articles
+tags:
 - design
 - tools
 ---

@@ -5,7 +5,8 @@ layout: post
 slug: resolve-error-version-number-does-not-start-with-digit
 title: Resolve Error "version number does not start with digit
 wordpress_id: 1063
-categories:
+categories: articles
+tags:
 - Linux
 tags:
 - Deb

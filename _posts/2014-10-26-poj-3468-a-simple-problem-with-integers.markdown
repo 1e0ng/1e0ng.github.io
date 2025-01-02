@@ -3,7 +3,8 @@ layout: post
 title: "POJ 3468 A Simple Problem with Integers"
 date: 2014-10-26 00:27:24 +0800
 comments: true
-categories:
+categories: articles
+tags:
 - Problems
 
 ---

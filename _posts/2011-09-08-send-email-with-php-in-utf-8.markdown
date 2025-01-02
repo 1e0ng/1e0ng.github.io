@@ -5,7 +5,8 @@ layout: post
 slug: send-email-with-php-in-utf-8
 title: Send Email With PHP in UTF-8
 wordpress_id: 755
-categories:
+categories: articles
+tags:
 - Web
 tags:
 - GBK

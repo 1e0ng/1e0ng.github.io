@@ -3,7 +3,8 @@ layout: post
 title: "GitHub workflow for submitting pull requests"
 date: 2013-02-21 11:17
 comments: true
-categories:
+categories: articles
+tags:
 - Tools
 
 ---

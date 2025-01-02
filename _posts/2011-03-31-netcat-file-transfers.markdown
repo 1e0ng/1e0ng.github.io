@@ -5,7 +5,8 @@ layout: post
 slug: netcat-file-transfers
 title: 'Netcat File Transfers '
 wordpress_id: 575
-categories:
+categories: articles
+tags:
 - Linux
 ---
 

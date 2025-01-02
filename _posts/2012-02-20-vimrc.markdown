@@ -5,7 +5,8 @@ layout: post
 slug: vimrc
 title: vimrc
 wordpress_id: 921
-categories:
+categories: articles
+tags:
 - Vim
 tags:
 - vimrc

@@ -3,7 +3,8 @@ layout: post
 title: "Modify Java .class in a .jar"
 date: 2015-12-19 01:38:11 +0800
 comments: true
-categories:
+categories: articles
+tags:
 - Security
 - Java
 ---

@@ -3,7 +3,8 @@ layout: post
 title: "Automatically Backup MongoDB with AWS CLI"
 date: 2015-07-24 10:54:31 +0800
 comments: true
-categories:
+categories: articles
+tags:
 - AWS
 - Database
 - Op

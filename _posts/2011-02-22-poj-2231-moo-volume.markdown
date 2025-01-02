@@ -5,7 +5,8 @@ layout: post
 slug: poj-2231-moo-volume
 title: POJ 2231 Moo Volume
 wordpress_id: 305
-categories:
+categories: articles
+tags:
 - Problems
 post_format:
 - Gallery

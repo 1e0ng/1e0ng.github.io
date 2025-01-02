@@ -3,7 +3,8 @@ layout: post
 title: "Wolfram Language Is Close To Release"
 date: 2014-03-29 15:46:04 +0800
 comments: true
-categories:
+categories: articles
+tags:
 - News
 
 ---

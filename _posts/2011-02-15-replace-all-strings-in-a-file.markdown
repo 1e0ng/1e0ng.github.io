@@ -5,7 +5,8 @@ layout: post
 slug: replace-all-strings-in-a-file
 title: Replace all strings in a file
 wordpress_id: 20
-categories:
+categories: articles
+tags:
 - Python
 post_format:
 - Gallery

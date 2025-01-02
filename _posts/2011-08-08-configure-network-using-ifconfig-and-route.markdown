@@ -5,7 +5,8 @@ layout: post
 slug: configure-network-using-ifconfig-and-route
 title: Configure Network Using ifconfig and route
 wordpress_id: 698
-categories:
+categories: articles
+tags:
 - Linux
 tags:
 - gateway

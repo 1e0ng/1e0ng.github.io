@@ -3,7 +3,8 @@ layout: post
 title: "A Python Implementation of Segment Tree"
 date: 2013-05-07 00:26
 comments: true
-categories:
+categories: articles
+tags:
 - Algorithm
 
 

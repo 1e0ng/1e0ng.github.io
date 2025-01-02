@@ -5,7 +5,8 @@ layout: post
 slug: poj-2002-squares
 title: POJ 2002 Squares
 wordpress_id: 286
-categories:
+categories: articles
+tags:
 - Problems
 tags:
 - '2002'

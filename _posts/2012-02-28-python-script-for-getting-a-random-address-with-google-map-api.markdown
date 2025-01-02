@@ -5,7 +5,8 @@ layout: post
 slug: python-script-for-getting-a-random-address-with-google-map-api
 title: Python Script For Getting A Random Address With Google Map API
 wordpress_id: 931
-categories:
+categories: articles
+tags:
 - Python
 - Web
 tags:

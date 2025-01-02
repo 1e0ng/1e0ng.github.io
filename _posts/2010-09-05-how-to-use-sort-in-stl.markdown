@@ -5,7 +5,8 @@ layout: post
 slug: how-to-use-sort-in-stl
 title: How to use STL Sort?
 wordpress_id: 230
-categories:
+categories: articles
+tags:
 - C
 tags:
 - Sort

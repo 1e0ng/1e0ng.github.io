@@ -5,7 +5,8 @@ layout: post
 slug: how-to-make-an-installer
 title: How To Make a Windows Installer
 wordpress_id: 674
-categories:
+categories: articles
+tags:
 - Software
 tags:
 - Install Package

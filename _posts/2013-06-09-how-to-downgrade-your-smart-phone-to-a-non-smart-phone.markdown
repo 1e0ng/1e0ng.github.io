@@ -3,7 +3,8 @@ layout: post
 title: "How To Downgrade Your Smart Phone To A Non-Smart Phone"
 date: 2013-06-09 14:25
 comments: true
-categories: 
+categories: articles
+tags: 
 - Life
 
 ---

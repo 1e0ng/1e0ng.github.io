@@ -4,7 +4,8 @@ date: 2011-02-19 19:31:20
 layout: post
 slug: how-to-use-__int64
 title: __int64 vs long long
-categories:
+categories: articles
+tags:
 - Windows
 
 ---

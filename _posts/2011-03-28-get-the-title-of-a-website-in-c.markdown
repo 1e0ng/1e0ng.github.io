@@ -5,7 +5,8 @@ layout: post
 slug: get-the-title-of-a-website-in-c
 title: Obtain The Title Of A Website
 wordpress_id: 519
-categories:
+categories: articles
+tags:
 - Web
 tags:
 - C++

@@ -5,7 +5,8 @@ layout: post
 slug: do-not-use-inline-block-in-css
 title: Do Not Use inline-block in CSS (Obsolete)
 wordpress_id: 905
-categories:
+categories: articles
+tags:
 - Frontend
 - CSS
 tags:

@@ -5,7 +5,8 @@ layout: post
 slug: how-to-solve-broken-pipe-message-in-ssh-session
 title: How to Solve Broken Pipe Message in SSH Session
 wordpress_id: 757
-categories:
+categories: articles
+tags:
 - Network
 tags:
 - Broken Pipe

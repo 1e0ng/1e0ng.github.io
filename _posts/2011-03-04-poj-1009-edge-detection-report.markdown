@@ -5,7 +5,8 @@ layout: post
 slug: poj-1009-edge-detection-report
 title: POJ 1009 Edge Detection Report
 wordpress_id: 422
-categories:
+categories: articles
+tags:
 - Problems
 tags:
 - '1009'

@@ -3,7 +3,8 @@ layout: post
 title: "Automatically mount an Amazon EBS volume"
 date: 2015-06-21 01:51:29 +0800
 comments: true
-categories:
+categories: articles
+tags:
 - Server
 - Linux
 ---

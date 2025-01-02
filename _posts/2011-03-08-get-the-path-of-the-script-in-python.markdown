@@ -5,7 +5,8 @@ layout: post
 slug: get-the-path-of-the-script-in-python
 title: Get The Absolute Path Of The Current Script
 wordpress_id: 453
-categories:
+categories: articles
+tags:
 - Python
 tags:
 - Path

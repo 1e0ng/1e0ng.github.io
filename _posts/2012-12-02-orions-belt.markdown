@@ -4,7 +4,8 @@ title: "Orion's Belt"
 slug: orions-belt
 date: 2012-12-02 19:34
 comments: true
-categories: 
+categories: articles
+tags: 
 - Life
 ---
 

@@ -3,7 +3,8 @@ layout: post
 title: "Open Source Python Based Wiki: First Wiki"
 date: 2014-08-25 14:23:55 +0800
 comments: true
-categories:
+categories: articles
+tags:
 - Python
 - Web
 

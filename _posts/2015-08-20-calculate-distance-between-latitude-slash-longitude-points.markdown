@@ -3,7 +3,8 @@ layout: post
 title: "Calculate distance between Latitude/Longitude points"
 date: 2015-08-20 09:44:20 +0800
 comments: true
-categories:
+categories: articles
+tags:
 - Math
 ---
 

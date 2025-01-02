@@ -3,7 +3,8 @@ layout: post
 title: "Resetting default input method in Mac OS"
 date: 2014-06-22 20:42:17 +0800
 comments: true
-categories:
+categories: articles
+tags:
 - Mac OS
 
 ---

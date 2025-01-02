@@ -3,7 +3,8 @@ layout: post
 title: "How to Tip Properly in the US"
 date: 2014-11-21 13:03:55 -0800
 comments: true
-categories:
+categories: articles
+tags:
 - Life
 ---
 It's really a headache problem for a non-local person to tip properly. Before I come to the US, I have no experience about this. Unfortunately, I didn't do any preparation about tipping before I come here. Fortunately, I find this table :D

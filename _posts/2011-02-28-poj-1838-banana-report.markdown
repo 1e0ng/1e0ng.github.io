@@ -5,7 +5,8 @@ layout: post
 slug: poj-1838-banana-report
 title: POJ 1838 Banana Report
 wordpress_id: 347
-categories:
+categories: articles
+tags:
 - Problems
 post_format:
 - Gallery

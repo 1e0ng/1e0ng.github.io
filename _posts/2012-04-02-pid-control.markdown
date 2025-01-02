@@ -5,7 +5,8 @@ layout: post
 slug: pid-control
 title: PID Control
 wordpress_id: 942
-categories:
+categories: articles
+tags:
 - Algorithm
 tags:
 - AI

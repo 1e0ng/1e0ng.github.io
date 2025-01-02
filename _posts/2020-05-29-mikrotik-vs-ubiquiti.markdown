@@ -3,7 +3,8 @@ layout: post
 title: "MikroTik vs Ubiquiti"
 date: 2020-05-29 21:19:23 +0800
 comments: true
-categories: Network
+categories: articles
+tags: Network
 ---
 
 Talking about router and switch, we have 2 markets, the enterprise one, and the consumer one.

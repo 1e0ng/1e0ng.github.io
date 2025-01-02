@@ -3,7 +3,8 @@ layout: post
 title: "Phonetic Alphabet"
 date: 2014-10-24 19:46:13 +0800
 comments: true
-categories:
+categories: articles
+tags:
 - Life
 ---
 

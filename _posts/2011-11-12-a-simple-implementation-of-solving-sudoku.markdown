@@ -5,7 +5,8 @@ layout: post
 slug: a-simple-implementation-of-solving-sudoku
 title: A Simple Implementation of Solving Sudoku
 wordpress_id: 873
-categories:
+categories: articles
+tags:
 - Algorithm
 - CPP
 tags:

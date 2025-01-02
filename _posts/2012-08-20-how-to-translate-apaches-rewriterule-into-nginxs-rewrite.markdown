@@ -5,7 +5,8 @@ layout: post
 slug: how-to-translate-apaches-rewriterule-into-nginxs-rewrite
 title: How to Translate Apache's "RewriteRule" into Nginx's "rewrite"
 wordpress_id: 996
-categories:
+categories: articles
+tags:
 - Web
 tags:
 - Configuration

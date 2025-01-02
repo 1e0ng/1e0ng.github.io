@@ -3,7 +3,8 @@ layout: post
 title: "Caveat: Use Ubiquiti ER-X in China"
 date: 2020-02-15 15:57:45 +0800
 comments: true
-categories:
+categories: articles
+tags:
 - Network
 ---
 

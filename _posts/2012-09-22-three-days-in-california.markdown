@@ -5,7 +5,8 @@ layout: post
 slug: three-days-in-california
 title: Three Days in California
 wordpress_id: 1038
-categories:
+categories: articles
+tags:
 - Life
 tags:
 - CS101

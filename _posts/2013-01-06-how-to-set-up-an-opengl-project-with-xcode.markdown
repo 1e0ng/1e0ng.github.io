@@ -3,7 +3,8 @@ layout: post
 title: "How to set up an OpenGL project with XCode"
 date: 2013-01-06 21:22
 comments: true
-categories: 
+categories: articles
+tags: 
 - Mac OS
 - Graphics
 ---

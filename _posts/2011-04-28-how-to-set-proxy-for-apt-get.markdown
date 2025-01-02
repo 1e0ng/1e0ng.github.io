@@ -5,7 +5,8 @@ layout: post
 slug: how-to-set-proxy-for-apt-get
 title: How To Set Proxy For apt-get
 wordpress_id: 595
-categories:
+categories: articles
+tags:
 - Linux
 ---
 

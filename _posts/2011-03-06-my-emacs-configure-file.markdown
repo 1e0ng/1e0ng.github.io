@@ -5,7 +5,8 @@ layout: post
 slug: my-emacs-configure-file
 title: My Emacs Configure File
 wordpress_id: 438
-categories:
+categories: articles
+tags:
 - Linux
 tags:
 - Configure

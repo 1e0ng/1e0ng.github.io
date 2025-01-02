@@ -5,7 +5,8 @@ layout: post
 slug: wordpress-vim
 title: How to Write Blog via Vim
 wordpress_id: 1033
-categories:
+categories: articles
+tags:
 - Vim
 tags:
 - vim

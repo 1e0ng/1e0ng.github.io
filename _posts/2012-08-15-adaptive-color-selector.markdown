@@ -5,7 +5,8 @@ layout: post
 slug: adaptive-color-selector
 title: Adaptive Color Selector
 wordpress_id: 987
-categories:
+categories: articles
+tags:
 - Frontend
 - Javascript
 

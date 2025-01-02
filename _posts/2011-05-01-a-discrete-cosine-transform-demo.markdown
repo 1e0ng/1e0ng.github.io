@@ -5,7 +5,8 @@ layout: post
 slug: a-discrete-cosine-transform-demo
 title: A Discrete Cosine Transform Demo
 wordpress_id: 614
-categories:
+categories: articles
+tags:
 - Math
 ---
 

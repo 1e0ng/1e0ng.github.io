@@ -3,7 +3,8 @@ layout: post
 title: "POJ 3264 Balanced Lineup"
 date: 2014-10-25 23:15:03 +0800
 comments: true
-categories:
+categories: articles
+tags:
 - Problems
 
 ---

@@ -5,7 +5,8 @@ layout: post
 slug: configure-php-fpm-and-nginx-in-low-memory-servers
 title: Configure PHP-FPM and Nginx in Low Memory Servers
 wordpress_id: 783
-categories:
+categories: articles
+tags:
 - Server
 tags:
 - Configuration

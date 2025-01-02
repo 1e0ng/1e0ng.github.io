@@ -5,7 +5,8 @@ layout: post
 slug: how-to-add-pinterest-google-1-facebook-like-tweet-to-prestashop
 title: How To Add Pinterest, Google +1, Facebook Like, Tweet to Prestashop
 wordpress_id: 1071
-categories:
+categories: articles
+tags:
 - Frontend
 - Javascript
 - Web

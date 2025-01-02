@@ -5,7 +5,8 @@ layout: post
 slug: how-to-change-the-ip-address-of-the-svn-server
 title: How to change the IP address of the SVN server in checked-out project?
 wordpress_id: 17
-categories:
+categories: articles
+tags:
 - Skills
 tags:
 - Change

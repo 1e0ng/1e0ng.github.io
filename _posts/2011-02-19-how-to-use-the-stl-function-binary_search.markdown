@@ -4,7 +4,8 @@ date: 2011-02-19 21:46:49
 layout: post
 slug: how-to-use-the-stl-function-binary_search
 title: 'STL Function: binary_search()'
-categories:
+categories: articles
+tags:
 - Algorithm
 - CPP
 

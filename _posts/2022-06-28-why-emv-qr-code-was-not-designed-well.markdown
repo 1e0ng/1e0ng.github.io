@@ -3,7 +3,8 @@ layout: post
 title: "Why EMV QR Code was NOT designed well"
 date: 2022-06-28 00:17:12 +0800
 comments: true
-categories:
+categories: articles
+tags:
 - payments
 ---
 

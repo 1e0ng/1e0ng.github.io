@@ -3,7 +3,8 @@ layout: post
 title: "Mod Supermicro Motherboard BIOS to Support NVME"
 date: 2020-08-06 21:03:25 +0800
 comments: true
-categories:
+categories: articles
+tags:
 - BIOS
 ---
 
