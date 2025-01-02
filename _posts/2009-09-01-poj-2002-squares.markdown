@@ -1,0 +1,68 @@
+---
+comments: true
+date: 2009-09-01 23:19:38 +0800
+layout: post
+slug: poj-2002-squares
+title: POJ 2002 Squares
+wordpress_id: 286
+categories:
+- Problems
+tags:
+- '2002'
+- POJ
+- Report
+---
+Here is my pseudo code:
+
+```
+count <-- 0
+for each edge( two points) do
+    find the possible other two points to construct a square, there will be two pairs.
+    for each pair of points do
+        use binary search or hash to check if both points are given
+        if both are given then count <-- count+1
+return count
+```
+
+<!--more-->
+
+If you use binary search, you should `quick sort` the point set, the time complexity is $$ O(n^2\log {n}) $$.
+If you use a good hash, the time complexity can be $$ O(n^2) $$.
+
+Here is the source code:
+
+``` cpp POJ 2002 Squares
+#include <iostream>
+#include <algorithm>
+#include <utility>
+using namespace std;
+#define N 1001
+int n;
+pair<int,int> p[N];
+int d[N];
+int main(){
+    int i,j,r;
+    while(cin>>n&&n){
+        for(i=0;i<n;i++){
+            scanf("%d%d",&p[i].first,&p[i].second);
+        }
+        sort(p,p+n);
+        r=0;
+        for(i=0;i<n-1;i++){
+            for(j=i+1;j<n;j++){
+                int x0=p[j].first-p[i].first,y0=p[j].second-p[i].second;
+                int a=y0+p[i].first,b=-x0+p[i].second;
+                int c=y0+p[j].first,d=-x0+p[j].second;
+                if(binary_search(p,p+n,make_pair(a,b))&&binary_search(p,p+n,make_pair(c,d)))
+                    r++;
+                a=-y0+p[i].first,b=x0+p[i].second;
+                c=-y0+p[j].first,d=x0+p[j].second;
+                if(binary_search(p,p+n,make_pair(a,b))&&binary_search(p,p+n,make_pair(c,d)))
+                    r++;
+            }
+        }
+        printf("%d\n",r/4);
+    }
+    return 0;
+}
+```
