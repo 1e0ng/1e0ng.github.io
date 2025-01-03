@@ -3,7 +3,7 @@ layout: post
 title: "Django + uWSGI + Nginx"
 date: 2012-12-22 16:45
 comments: true
-categories: 
+categories:
 - Server
 - Web
 ---
@@ -54,7 +54,7 @@ max-requests=5000
 - `socket` is for communication with Nginx.
 - `virtualenv` is the path of your virtual environment.
 - `chdir` is you project folder. For this example, assume you have created a project called mysite in folder /home/leon (`django-admin startproject mysite`).
-- `module` is the entrance to your application. If you use the current version of Django, the `django-admin startproject` command should have genereated a wsgi.py file for you with an `application` variable in it, so just substite `mysite` with your project name. 
+- `module` is the entrance to your application. If you use the current version of Django, the `django-admin startproject` command should have genereated a wsgi.py file for you with an `application` variable in it, so just substite `mysite` with your project name.
 - `master` means this uwsgi worker is master.
 - `workers` is the number of uwsgi workers.
 - `pidfile` is the pid of the running uwsgi process. You can use it to stop or reload your uWSGI server.

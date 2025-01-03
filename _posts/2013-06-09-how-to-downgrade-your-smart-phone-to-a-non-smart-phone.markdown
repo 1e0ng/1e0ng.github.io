@@ -3,16 +3,16 @@ layout: post
 title: "How To Downgrade Your Smart Phone To A Non-Smart Phone"
 date: 2013-06-09 14:25
 comments: true
-categories: 
+categories:
 - Life
 
 ---
 
 There are some circumstances that you want your smart phone be a non-smart phone.
-For example, you may forget to charge your phone last night, and you don't have a 
+For example, you may forget to charge your phone last night, and you don't have a
 charger in your office, and you suddenly find the battery is less than 20%.
 Or you are in outdoor travel, and the battery is low, but you don't want to shutdown
-your phone because you want to keep in touch with others. 
+your phone because you want to keep in touch with others.
 
 <!--more-->
 Turn your smart phone into non-smart then. It's easy. For Android phone:

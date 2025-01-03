@@ -73,7 +73,7 @@ c(n)
 is=0;
 for i=1:n
     x(i)=x(i)-1;
-    if x(i)>1 
+    if x(i)>1
         is=1;
     end
 end

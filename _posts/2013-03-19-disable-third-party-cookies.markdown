@@ -3,7 +3,7 @@ layout: post
 title: "Disable Third-Party Cookies"
 date: 2013-03-19 22:17
 comments: true
-categories: 
+categories:
 - Security
 - Web
 
@@ -39,8 +39,8 @@ Unlike regular Web cookies, which can be disabled via your browser preferences,
 Flash cookies can only be accessed through the Adobe Flash Player Settings Manager.
 For Mac users, you can find it in `System Preferences`.
 
-Do as the following picture shows. Choose `Ask me before allowing new sites to save information on this computer` 
-or `Block all sites from storing information on this computer`. 
+Do as the following picture shows. Choose `Ask me before allowing new sites to save information on this computer`
+or `Block all sites from storing information on this computer`.
 
 ![Disable Flash Cookie](/uploads/disable-flashcookies.png)
 

@@ -3,7 +3,7 @@ layout: post
 title: "Resolve Ubiquiti Router Web Console HTTPS Certificate Issue"
 date: 2020-12-16 21:20:29 +0800
 comments: true
-categories: 
+categories:
 - Network
 ---
 
@@ -182,7 +182,7 @@ Then edit the file `/etc/lighttpd/lighttpd.conf` to include the above config fil
 ```
 include "conf-enabled/10-ssl.conf"
 include "conf-enabled/11-redirect"
-include "conf-enabled/15-fastcgi-python.conf" 
+include "conf-enabled/15-fastcgi-python.conf"
 ```
 
 Add the second line, the same way as the existing `10-ssl.conf` and `15-fastcgi-python.conf` files.

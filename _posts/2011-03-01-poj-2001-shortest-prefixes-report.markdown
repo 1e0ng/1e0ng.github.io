@@ -195,7 +195,7 @@ int main()
         if(str1[i][l[i]])printf("%c",str1[i][l[i]]);
         cout<<endl;
     }
-    return 0;  
+    return 0;
 }
 
 */

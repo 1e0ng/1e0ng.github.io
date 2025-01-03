@@ -58,9 +58,9 @@ ZIP archive contains the plug-in DLL as well as documentation, source code and s
 
 
 
-    
-    liteFirewall::AddRule "<application path>" "<rule name>" 
-    liteFirewall::RemoveRule "<application path>" "<rule name>" 
+
+    liteFirewall::AddRule "<application path>" "<rule name>"
+    liteFirewall::RemoveRule "<application path>" "<rule name>"
 
 
 <application path>is the full path to the application you want to be authorized to access the network (or accept incoming connections). <rule name>is the title that will be given to this exception entry in the firewall control panel list.
@@ -70,13 +70,13 @@ ZIP archive contains the plug-in DLL as well as documentation, source code and s
 
 
 
-    
-    ; Add NOTEPAD to the authorized list 
-    liteFirewall::AddRule "$WINDIRNotepad.exe" "liteFirewall Test" 
-    Pop $0 
-    ; Remove NOTEPAD from the authorized list 
-    liteFirewall::RemoveRule "$WINDIRNotepad.exe" "liteFirewall Test" 
-    Pop $0 
+
+    ; Add NOTEPAD to the authorized list
+    liteFirewall::AddRule "$WINDIRNotepad.exe" "liteFirewall Test"
+    Pop $0
+    ; Remove NOTEPAD from the authorized list
+    liteFirewall::RemoveRule "$WINDIRNotepad.exe" "liteFirewall Test"
+    Pop $0
 
 ### Source Code
 

@@ -27,13 +27,13 @@ So, … this is my DP method:
 
 ```
 State Transformation Equation:
-    f(i, j) = 
+    f(i, j) =
         max(f(i-1, j), f(i-1, j-a(i)) + b(i))), if color(i-1, j) is BLACK and color(i - 1, j - a(i)) is BLACK,
         f(i-1,j-a(i))+b(i), if color(i-1,j) is WHITE and color(i-1,j-a(i)) is BLACK
     color(i, j) =
     	BLACK, if color(i-1, j) is BLACK or color(i-1, j-a(i)) is BLACK or (j-a(i)) = 0,
     	WHITE, if color(i-1, j) is WHITE and color(i-1, j-a(i)) is WHITE
-    
+
 ```
 
 Here is the source code:

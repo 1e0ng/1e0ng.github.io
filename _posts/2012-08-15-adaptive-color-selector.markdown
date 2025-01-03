@@ -21,7 +21,7 @@ tags:
 This is an adaptive color selector. It can dynamically choose which color of checkmark to use. When a light color is chosen, a black checkmark display; while when dark color is chosen, a white checkmark display.
 
 Here is a screenshot.
-<!-- more --> 
+<!-- more -->
 
 [![](/uploads/2012-08-color-selector.png)](/uploads/2012-08-color-selector.png)
 

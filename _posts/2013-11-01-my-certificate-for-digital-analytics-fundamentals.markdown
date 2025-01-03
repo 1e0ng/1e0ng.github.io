@@ -3,7 +3,7 @@ layout: post
 title: "My Certificate for Digital Analytics Fundamentals"
 date: 2013-11-01 11:05
 comments: true
-categories: 
+categories:
 - Study
 - Life
 

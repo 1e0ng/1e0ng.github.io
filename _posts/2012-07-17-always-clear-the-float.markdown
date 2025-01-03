@@ -13,7 +13,7 @@ categories:
 
 Unless you really want to use Block Formatting Context, it's usually a good idea to clear the float.
 
-<!-- more --> 
+<!-- more -->
 
 Look at the following html code:
 

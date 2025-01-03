@@ -3,7 +3,7 @@ layout: post
 title: "Singapore Weekend Activity Rotations"
 date: 2022-06-05 17:14:50 +0800
 comments: true
-categories: 
+categories:
 ---
 
 - Sungei Buloh Wetland Reserve

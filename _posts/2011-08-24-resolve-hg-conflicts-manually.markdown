@@ -14,9 +14,9 @@ categories:
 This artical tells about a simple method to resolve Hg conflicts. It doesn't use any 3-party tool to merge your code, but only use emacs to edit your conflicts file and tag a resolved tag. So don't apply it to merge big files with a lot of conflicts.
 
 <!--more-->
-When you pull code from the hg server, you get new changesets. 
+When you pull code from the hg server, you get new changesets.
 
-``` bash    
+``` bash
 $ hg pull
 --------------------------------------------
 pulling from http://***/hg_server
@@ -28,7 +28,7 @@ added 1 changesets with 2 changes to 2 files
 (run 'hg update' to get a working copy)
 ```
 
-It notifies you to run `hg update`. 
+It notifies you to run `hg update`.
 
 {% highlight bash linenos %}
 $ hg up
@@ -39,21 +39,21 @@ merging a.php failed!
 0 files updated, 0 files merged, 0 files removed, 1 files unresolved
 {% endhighlight %}
 
-Conflict happens. That means another guy modified the same file and he or she has pushed the file into the hg server. Don't worry, let's edit the file to make it right. 
+Conflict happens. That means another guy modified the same file and he or she has pushed the file into the hg server. Don't worry, let's edit the file to make it right.
 
-``` bash    
+``` bash
 $ emacs a.php
 ```
 
-After that, we should let hg know we have resolved the conflict file. 
+After that, we should let hg know we have resolved the conflict file.
 
-``` bash    
+``` bash
 $ hg resolve -m test.php
 ```
 
-OK, that' all. You can commit and push your code to hg server now. 
+OK, that' all. You can commit and push your code to hg server now.
 
-``` bash    
+``` bash
 $ hg st
 --------------------
 M test.php

@@ -19,7 +19,7 @@ UPDATE: As Vensires mentions in the comment, this post is obsolete.
 
 Usually, when we want to arrange some blocks horizontally with CSS, we may choose to use `float: left;` property, or `display: inline-block;` alternatively.
 
-According to [http://www.quirksmode.org/css/display.html](http://www.quirksmode.org/css/display.html), inline-block is not supported by IE 5.5 and it's not completely supported by IE 6 and IE 7. 
+According to [http://www.quirksmode.org/css/display.html](http://www.quirksmode.org/css/display.html), inline-block is not supported by IE 5.5 and it's not completely supported by IE 6 and IE 7.
 
 <!-- more -->
 
@@ -29,9 +29,9 @@ So, don't use `display: inline-block;`, it will mess up your page on some browse
 
 Here is an example:
 
-Instead of using this,   
+Instead of using this,
 
-``` css    
+``` css
 .block1 {
     width: 100px;
     height: 30px;
@@ -44,9 +44,9 @@ Instead of using this,
 }
 ```
 
-we'd better to use use this, 
+we'd better to use use this,
 
-``` css    
+``` css
 .block1 {
     width: 100px;
     height: 30px;

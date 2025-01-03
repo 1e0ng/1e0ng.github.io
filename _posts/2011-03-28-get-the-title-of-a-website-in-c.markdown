@@ -48,12 +48,12 @@ size_t write_data (void *buffer, size_t size, size_t nmemb, void *userp) {
 int main (void) {
     CURL *curl;
     CURLcode res;
-    
+
     fin = fopen ("in.txt", "r");
     ftmp = fopen("tmp.txt", "w");
     fout = fopen("out.txt", "w");
     curl = curl_easy_init();
-    
+
     if(curl) {
         printf("Got easy handle...n");
         curl_easy_setopt(curl, CURLOPT_URL, "http://leons.im");
@@ -65,7 +65,7 @@ int main (void) {
         res = curl_easy_perform(curl);
         printf("Performed.n");
         fclose(ftmp);
-        
+
         ftmp = fopen ("tmp.txt", "rb");
         if (NULL == ftmp) {
             fputs ("File error", stderr);
@@ -75,7 +75,7 @@ int main (void) {
         fseek (ftmp, 0, SEEK_END);
         long lSize = ftell (ftmp);
         rewind (ftmp);
-        
+
         // Allocate memory to contain the whole file:
         char *buffer;
         buffer = (char *) malloc (sizeof(char) * lSize);
@@ -83,7 +83,7 @@ int main (void) {
             fputs ("Memory error", stderr);
             exit (2);
         }
-        
+
         // Copy the file into the buffer:
         size_t result;
         result = fread (buffer, 1, lSize, ftmp);
@@ -91,7 +91,7 @@ int main (void) {
             fputs ("Reading error", stderr);
             exit (3);
         }
-        
+
         // Regular expression compilation
         regex_t compiled;
         int res = regcomp (&compiled, "<title>\([^<]*\)</title>", REG_ICASE);
@@ -99,7 +99,7 @@ int main (void) {
             fputs ("Regular expression compilation error.", stderr);
             exit (4);
         }
-        
+
         // Regular expression match
         regmatch_t matchptr[2];
         char err_msg[80];
@@ -113,7 +113,7 @@ int main (void) {
         strncpy (title, buffer + matchptr[1].rm_so, matchptr[1].rm_eo - matchptr[1].rm_so);
         printf("%sn", title);
         fprintf(fout, "%sn", title);
-        
+
         regfree (&compiled);
         free (buffer);
         /* always cleanup */

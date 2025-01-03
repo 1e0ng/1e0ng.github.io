@@ -13,7 +13,7 @@ tags:
 - Python
 ---
 
-Before I know CLOC, SourceCounter or Ohcount, I write this script. 
+Before I know CLOC, SourceCounter or Ohcount, I write this script.
 
 <!--more-->
 
@@ -22,24 +22,24 @@ Before I know CLOC, SourceCounter or Ohcount, I write this script.
 # Created by Leon <i@leons.im> in 2012
 # This code is for Python 2.x
 
-import os, sys 
+import os, sys
 
 exts = ['.py', '.ini', '.c', '.h']
 count_empty_line = True
 here = os.path.abspath(os.path.dirname(sys.argv[0]))
 
 def read_line_count(fname):
-    count = 0 
+    count = 0
     for line in open(fname).readlines():
         if count_empty_line or len(line.strip()) > 0:
             count += 1
     return count
 if __name__ == '__main__':
-    line_count = 0 
-    file_count = 0 
+    line_count = 0
+    file_count = 0
     for base, dirs, files in os.walk(here):
         for file in files:
-            # Check the sub directorys            
+            # Check the sub directorys
             if file.find('.') < 0:
                 continue
             ext = (file[file.rindex('.'):]).lower()
@@ -64,5 +64,5 @@ Copy and save the script as analytics.py and modify the `exts` list to include a
 
 
 
-    
+
     python analytics.py

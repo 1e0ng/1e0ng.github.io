@@ -28,13 +28,13 @@ This option applies to protocol version 2 only.
 
 To update your server (and restart your sshd)
 
-``` bash    
+``` bash
 $ echo "ClientAliveInterval 60" | sudo tee -a /etc/ssh/sshd_config
 ```
 
 Or client-side:
 
-``` bash    
+``` bash
 $ echo "ServerAliveInterval 60" >> ~/.ssh/config
 ```
 
@@ -63,13 +63,13 @@ do
         if test $i -eq 0
         then
             echo "I'm alive since $(date)"
-        fi  
-        i=1 
+        fi
+        i=1
     else
-        i=0 
+        i=0
         echo "I died... God is bringing me back..."
         ssh $remote_user@$remote_ip -f -N -D 0.0.0.0:$local_port
-    fi  
+    fi
     sleep 1
 done
 {% endhighlight %}

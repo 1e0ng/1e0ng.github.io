@@ -29,7 +29,7 @@ ALTER TABLE tbl_name
 
 Example:
 
-``` sql   
+``` sql
 CREATE TABLE t1 ( ... )
 CHARACTER SET utf8;
 ```
@@ -39,14 +39,14 @@ Sometimes, you need to see what character set a database/table/column is, here i
 
 For Schemas:
 
-``` sql    
+``` sql
 SELECT default_character_set_name FROM information_schema.SCHEMATA S
 WHERE schema_name = "schemaname";
 ```
 
 For Tables:
 
-``` sql    
+``` sql
 SELECT CCSA.character_set_name FROM information_schema.`TABLES` T,
        information_schema.`COLLATION_CHARACTER_SET_APPLICABILITY` CCSA
 WHERE CCSA.collation_name = T.table_collation

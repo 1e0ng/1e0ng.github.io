@@ -68,7 +68,7 @@ Custom TCP role, TCP, 27017, 172.31.0.0/16
 SSH, TCP, 22, 0.0.0.0/0
 ```
 
-Here `172.31.0.0/16` depends on the network of all instances. 
+Here `172.31.0.0/16` depends on the network of all instances.
 Make sure all EC2 instances can connect to each other, and the web/app server can connect the primary database server.
 
 Associate the security group to each EC2 instance.

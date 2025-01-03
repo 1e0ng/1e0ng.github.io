@@ -72,13 +72,13 @@ server {
     }
 }
 
-server { 
-    listen 443; 
-    server_name DOMAIN; 
+server {
+    listen 443;
+    server_name DOMAIN;
 
-    ssl on; 
-    ssl_certificate /etc/ssl/DOMAIN.crt; 
-    ssl_certificate_key /etc/ssl/DOMAIN.key; 
+    ssl on;
+    ssl_certificate /etc/ssl/DOMAIN.crt;
+    ssl_certificate_key /etc/ssl/DOMAIN.key;
 
     ssl_stapling on;
     ssl_session_cache shared:SSL:10m;
@@ -93,16 +93,16 @@ server {
         return 303 https://browser-update.org/update.html;
     }
 
-    location / { 
-        proxy_pass http://localhost:3800; 
-        proxy_http_version 1.1; 
-        proxy_set_header Upgrade $http_upgrade; # allow websockets 
-        proxy_set_header Connection $connection_upgrade; 
-        proxy_set_header X-Forwarded-For $remote_addr; # preserve client IP 
+    location / {
+        proxy_pass http://localhost:3800;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade; # allow websockets
+        proxy_set_header Connection $connection_upgrade;
+        proxy_set_header X-Forwarded-For $remote_addr; # preserve client IP
         proxy_set_header Host $host;
         proxy_set_header X-Real-IP $remote_addr;
         proxy_set_header X-Forwarded-Proto $scheme;
-    } 
+    }
 }
 
 ```

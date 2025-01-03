@@ -23,12 +23,12 @@ This article describes how to use the php function mail to send a mail.
 PHP manual says
 
 {% quote %}
-It is worth noting that the mail() function is not suitable for 
-larger volumes of email in a loop. This function opens and closes an SMTP 
-socket for each email, which is not very efficient. 
+It is worth noting that the mail() function is not suitable for
+larger volumes of email in a loop. This function opens and closes an SMTP
+socket for each email, which is not very efficient.
 
-For the sending of large amounts of email, see the » PEAR::Mail, 
-and » PEAR::Mail_Queue packages. 
+For the sending of large amounts of email, see the » PEAR::Mail,
+and » PEAR::Mail_Queue packages.
 {% endquote %}
 
 Don't worry about that if you use postfix instead of MTA, because postfix handle all mails with a mail queue.
@@ -36,7 +36,7 @@ Don't worry about that if you use postfix instead of MTA, because postfix handle
 
 The PHP function mail is:
 
-``` php    
+``` php
 bool mail(string $to, string $subject, string $message[, string $additional_headers[, string $additional_parameters]])
 ```
 
@@ -45,24 +45,24 @@ It depends on the system command sendmail. postfix is a portage contains the sen
 To install postfix on Arch, use this command:
 
 {% highlight bash linenos %}
-$ sudo pacman -Syu postfix 
+$ sudo pacman -Syu postfix
 {% endhighlight %}
 
-Or, install it on Ubuntu, use this: 
+Or, install it on Ubuntu, use this:
 
 {% highlight bash linenos %}
-$ sudo apt-get install postfix 
+$ sudo apt-get install postfix
 {% endhighlight %}
 
-If you have installed sendmail, you need to uninstall it at first: 
-    
+If you have installed sendmail, you need to uninstall it at first:
+
 {% highlight bash linenos %}
 $ sudo apt-get remove sendmail
 {% endhighlight %}
 
-That's all. Now write a test script to test. 
+That's all. Now write a test script to test.
 
-``` php    
+``` php
 <?php
 
 /**
@@ -90,8 +90,8 @@ echo mail($to, $subject, $message, $headers);
 ?>
 ```
 
-Postfix has a mail queue to handle your mail. This is fatabulous! 
-    
+Postfix has a mail queue to handle your mail. This is fatabulous!
+
 {% highlight bash linenos %}
 $ mailq
 -Queue ID- --Size-- ----Arrival Time---- -Sender/Recipient-------

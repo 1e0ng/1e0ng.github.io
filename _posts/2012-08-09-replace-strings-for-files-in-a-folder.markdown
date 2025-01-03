@@ -12,15 +12,15 @@ categories:
 
 In my previous blog, I wrote the code to replace all string in a file: [http://leons.im/2011/02/replace-all-strings-in-a-file/](http://leons.im/2011/02/replace-all-strings-in-a-file/). Today, I write a cooler code -- It can replace all strings in many files, actually it can replace all strings in files that are in a same folder.
 
-<!-- more --> 
+<!-- more -->
 
-Save the following code to the folder that you want to replace strings, and name it like `replace.py`. 
+Save the following code to the folder that you want to replace strings, and name it like `replace.py`.
 
 Modify parameters `from_str`, `to_str` and `files_to_replace` in the form of regular expression.
 Then run `python replace.py`.
 
 
-``` python Replace Strings for All Files in a Folder    
+``` python Replace Strings for All Files in a Folder
 #!/usr/bin/python
 import sys, os, re
 #Created by Leon on Aug 9, 2012

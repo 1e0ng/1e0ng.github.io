@@ -14,13 +14,13 @@ tags:
 - Python
 ---
 
-With [Google Map API](http://code.google.com/apis/maps/documentation/webservices/index.html), you can do a lot of thing. Here I will use it to turn latitude and longitude into human-readable addresses. 
+With [Google Map API](http://code.google.com/apis/maps/documentation/webservices/index.html), you can do a lot of thing. Here I will use it to turn latitude and longitude into human-readable addresses.
 
 <!-- more -->
 
-This script has 2 parts. The first part generate a random location, ie latitude and longitude, with the Gaussion distribution which is a method in `random` package. Then it turns a coordinate into an address with [The Google Geocoding API](http://code.google.com/apis/maps/documentation/geocoding/). 
+This script has 2 parts. The first part generate a random location, ie latitude and longitude, with the Gaussion distribution which is a method in `random` package. Then it turns a coordinate into an address with [The Google Geocoding API](http://code.google.com/apis/maps/documentation/geocoding/).
 
- 
+
 
 Note that use of the Google Geocoding API is subject to a query limit of 2,500 geolocation requests per day. Read more restrictions about Google Map API here:[http://code.google.com/apis/maps/terms.html](http://code.google.com/apis/maps/terms.html)
 
@@ -40,7 +40,7 @@ monkey.patch_all()
 def get_address():
     u = 100000.0
     v = 1000000.0
-    
+
     longitude = int(random.gauss(116467615, u))
     latitude = int(random.gauss(39923488, u))
     print "longitude=%d,latitude=%d" % (longitude, latitude)

@@ -9,15 +9,15 @@ categories:
 - Security
 ---
 
-Recently, I'm reading [pediy](http://www.pediy.com)'s book: `Encryption and Decryption`. This is a really good book with many practical technologies and skills, and it's also very interesting. In Chapter 2, I met a problem, so I cracked the demo crack-me program with ollydbg, but I'm not satisfied with that, so I studied the encrytion algorithm and wrote a keygen program. 
+Recently, I'm reading [pediy](http://www.pediy.com)'s book: `Encryption and Decryption`. This is a really good book with many practical technologies and skills, and it's also very interesting. In Chapter 2, I met a problem, so I cracked the demo crack-me program with ollydbg, but I'm not satisfied with that, so I studied the encrytion algorithm and wrote a keygen program.
 
-The main algorithm is very simple, but it took me a lot of time to deal with the multi-byte characters problems, and I found there is another defination of unicode on Microsoft's platform! I can't figure out why Micro$oft didn't use UTF-8 to build his system just like Macintosh, because with UTF-8, we programmers don't have to deal with these troubles at all. Anyway, Windows is such a snorty that most people still have to use it. 
+The main algorithm is very simple, but it took me a lot of time to deal with the multi-byte characters problems, and I found there is another defination of unicode on Microsoft's platform! I can't figure out why Micro$oft didn't use UTF-8 to build his system just like Macintosh, because with UTF-8, we programmers don't have to deal with these troubles at all. Anyway, Windows is such a snorty that most people still have to use it.
 
 <!-- more -->
 Here is the main code:
 
 ``` cpp My First Keygen
-void CCrackMeKeygenDlg::OnOK() 
+void CCrackMeKeygenDlg::OnOK()
 {
     USES_CONVERSION;
     UpdateData(TRUE);

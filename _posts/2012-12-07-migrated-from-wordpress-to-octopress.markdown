@@ -3,7 +3,7 @@ layout: post
 title: "Migrated From Wordpress to Octopress"
 date: 2012-12-07 22:57
 comments: true
-categories: 
+categories:
 - Web
 ---
 

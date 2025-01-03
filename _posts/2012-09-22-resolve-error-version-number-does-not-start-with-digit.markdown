@@ -21,15 +21,15 @@ I search the internet and Google tells me the solution.
 
 1. cd to the directory of linuxqq_v1.0.2-beta1_i386.deb
 
-2. 
+2.
 
 
-	```    
+	```
 	dpkg-deb -R linuxqq_v1.0.2-beta1_i386.deb linuxqq
 	```
-3. 
+3.
 
-	```    
+	```
 	vi linuxqq/DEBIAN/control
 	```
 
@@ -38,9 +38,9 @@ I search the internet and Google tells me the solution.
 	
 	save and exit.
 
-4. 
+4.
 
-	```  
+	```
 	dpkg-deb -b linuxqq/ linuxqq.deb
 	```
 

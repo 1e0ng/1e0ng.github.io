@@ -13,7 +13,7 @@ Before running apt-get command, run the following command:
 
 <!--more-->
 
-``` bash    
+``` bash
 $export http_proxy=http://<username>:<password>@<host>:<port>
 ```
 

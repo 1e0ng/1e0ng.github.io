@@ -18,33 +18,33 @@ This article describes how to set an development and production environment for 
 
 <!--more-->
 
-Pyramid is a popular Python web framework, evolved with pylons(which is used as the main framework by Quora) and Repoze.bfg. Nginx is an excellent HTTP and reverse proxy server. uWSGI is a fast, self-healing and developer/sysadmin-friendly application container server coded in pure C. I use it to connect Nginx and Pyramid applications. MySQL is a most popular database. 
+Pyramid is a popular Python web framework, evolved with pylons(which is used as the main framework by Quora) and Repoze.bfg. Nginx is an excellent HTTP and reverse proxy server. uWSGI is a fast, self-healing and developer/sysadmin-friendly application container server coded in pure C. I use it to connect Nginx and Pyramid applications. MySQL is a most popular database.
 
 ### 1. Install Nginx
 
-Simply run 
+Simply run
 
     sudo apt-get install nginx
 
 
-Fortunately, that will be OK. But if error happens, try to add the following line to your sources.list file (this is for Ubuntu lucid): 
+Fortunately, that will be OK. But if error happens, try to add the following line to your sources.list file (this is for Ubuntu lucid):
 
 
 
 
-    
+
     deb http://nginx.org/packages/ubuntu/ lucid nginx
 
 
 
 
 
-Then run 
+Then run
 
 
 
 
-    
+
     sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com ABF5BD827BD9BF62
     sudo apt-get update
     sudo apt-get install nginx
@@ -53,12 +53,12 @@ Then run
 
 
 
-If that still doesn't work, maybe you will have to download the [source code](http://nginx.org/) and compile it yourself. Don't forget to add the uWSGI support if you choose this way: 
+If that still doesn't work, maybe you will have to download the [source code](http://nginx.org/) and compile it yourself. Don't forget to add the uWSGI support if you choose this way:
 
 
 
 
-    
+
     ./configure --add-module=../uwsgi/nginx/
 
 
@@ -70,43 +70,43 @@ If that still doesn't work, maybe you will have to download the [source code](ht
 
 <!-- more -->
 
-    
+
     sudo apt-get install python-dev python-pip libjpeg62-dev
 
 
 
 
 
-pip is a tool to install python packages. I prefer pip than easy_install. pip has the ability to uninstall packages. libjpeg62-dev is essential if you use PIL (Python Image Library) to handle jpeg images. 
+pip is a tool to install python packages. I prefer pip than easy_install. pip has the ability to uninstall packages. libjpeg62-dev is essential if you use PIL (Python Image Library) to handle jpeg images.
 
 
 
 
-    
+
     sudo pip install virtualenvwrapper
 
 
 
 
 
-virtualenvwrapper is a tool to setup a virtual python environment so as to isolate with system's python environment and also can be used to makeup different python environment for different projects. It's handy and useful. 
+virtualenvwrapper is a tool to setup a virtual python environment so as to isolate with system's python environment and also can be used to makeup different python environment for different projects. It's handy and useful.
 
 
 
 
-    
+
     source /usr/local/bin/virtualenvwrapper.sh
 
 
 
 
 
-Depend on your system, the path for this file maybe at /usr/bin/virtualenvwrapper.sh, so just find it. Also add the above line to you .bash_rc file so that you don't need to run this command each time you log in your system. 
+Depend on your system, the path for this file maybe at /usr/bin/virtualenvwrapper.sh, so just find it. Also add the above line to you .bash_rc file so that you don't need to run this command each time you log in your system.
 
 
 
 
-    
+
     mkvirtualenv env1
     workon env1
 
@@ -114,12 +114,12 @@ Depend on your system, the path for this file maybe at /usr/bin/virtualenvwrappe
 
 
 
-The mkvirtualenv command need to run once. The workon command need to run each time you get into this environment. You can make a variety of environments such env2, env3..., and you can use the workon command to switch between different environments: 
+The mkvirtualenv command need to run once. The workon command need to run each time you get into this environment. You can make a variety of environments such env2, env3..., and you can use the workon command to switch between different environments:
 
 
 
 
-    
+
     mkvirtualenv env2
     mkvirtualenv env3
     workon env2
@@ -130,37 +130,37 @@ The mkvirtualenv command need to run once. The workon command need to run each t
 
 
 
-Now get into env1 and install pyramid. 
+Now get into env1 and install pyramid.
 
 
 
 
-    
+
     pip install pyramid
 
 
 
 
 
-To update instead of install pyramid, use the -U parameter: 
+To update instead of install pyramid, use the -U parameter:
 
 
 
 
-    
+
     pip install -U pyramid
 
 
 
 
 
-Note from now on, you need not to use sudo to install python packages, because you install python packages in your virtual environment, ie ~/.virtualenv/env1/ 
+Note from now on, you need not to use sudo to install python packages, because you install python packages in your virtual environment, ie ~/.virtualenv/env1/
 
 
 
 
 
-Read the document [SQLAlchemy + URL Dispatch Wiki Tutorial](http://docs.pylonsproject.org/projects/pyramid/en/1.3-branch/tutorials/wiki2/index.html) and setup your pyramid project. 
+Read the document [SQLAlchemy + URL Dispatch Wiki Tutorial](http://docs.pylonsproject.org/projects/pyramid/en/1.3-branch/tutorials/wiki2/index.html) and setup your pyramid project.
 
 
 
@@ -171,7 +171,7 @@ Read the document [SQLAlchemy + URL Dispatch Wiki Tutorial](http://docs.pylonspr
 
 
 
-    
+
     workon env1
     pip install uwsgi
 
@@ -179,12 +179,12 @@ Read the document [SQLAlchemy + URL Dispatch Wiki Tutorial](http://docs.pylonspr
 
 
 
-Maybe you will encounter some errors, just resolve them. For example it maybe complains that there is no libxml2 library, just install it with: 
+Maybe you will encounter some errors, just resolve them. For example it maybe complains that there is no libxml2 library, just install it with:
 
 
 
 
-    
+
     sudo apt-get install libxml2-dev
 
 
@@ -196,14 +196,14 @@ Maybe you will encounter some errors, just resolve them. For example it maybe co
 
 
 
-    
+
     sudo install mysql-server python-myql libmysqlclient16
 
 
 
 
 
-python-mysql is the python driver for mysql. libmysqlclient16 is needed as some python programe need the mysql_config file to work properly with mysql. 
+python-mysql is the python driver for mysql. libmysqlclient16 is needed as some python programe need the mysql_config file to work properly with mysql.
 
 
 
@@ -215,12 +215,12 @@ python-mysql is the python driver for mysql. libmysqlclient16 is needed as some 
 
 
 
-Edit /etc/mysql/my.cnf, adding the following lines under the [mysqld] tag: 
+Edit /etc/mysql/my.cnf, adding the following lines under the [mysqld] tag:
 
 
 
 
-    
+
     skip-character-set-client-handshake
     collation_server=utf8_unicode_ci
     character_set_server=utf8
@@ -229,12 +229,12 @@ Edit /etc/mysql/my.cnf, adding the following lines under the [mysqld] tag:
 
 
 
-This make mysql server to use utf8 character set. Restart mysql to make the configuration come into effect. 
+This make mysql server to use utf8 character set. Restart mysql to make the configuration come into effect.
 
 
 
 
-    
+
     sudo service mysql restart
 
 
@@ -247,45 +247,45 @@ This make mysql server to use utf8 character set. Restart mysql to make the conf
 
 
 
-Edit /etc/nginx/nginx.conf. Here is an example: 
+Edit /etc/nginx/nginx.conf. Here is an example:
 
 
 
 
-    
+
     user www-data;
     worker_processes  16;
-    
+
     error_log  /var/log/nginx/error.log;
     pid        /var/run/nginx.pid;
-    
+
     worker_rlimit_nofile 20480;
     events {
         use epoll;
         worker_connections  20480;
     }
     timer_resolution  500ms;
-    
-    
+
+
     http {
         include       mime.types;
         default_type  application/octet-stream;
-    
+
         log_format  main  '$remote_addr $host $remote_user [$time_local] "$request" '
                           '$status $body_bytes_sent "$http_referer" "$http_user_agent" "$gzip_ratio" "$request_length" "$upstream_response_time" "$request_time"';
         access_log  /var/log/nginx/access.log main;
-    
+
         sendfile        on;
-    
+
         keepalive_timeout  60;
         tcp_nodelay        on;
-    
+
         gzip_disable "MSIE [1-6]\.(?!.*SV1)";
         gzip_buffers 16 8k;
         gzip_comp_level 1;
         gzip_min_length   0;
         gzip_types text/plain text/css application/x-javascript text/xml application/xml application/xml+rss text/javascript;
-    
+
         include /etc/nginx/conf.d/*.conf;
         include /etc/nginx/sites-enabled/*;
     }
@@ -294,17 +294,17 @@ Edit /etc/nginx/nginx.conf. Here is an example:
 
 
 
-Add a file in /etc/nginx/sites-available/, for example named demo: 
+Add a file in /etc/nginx/sites-available/, for example named demo:
 
 
 
 
-    
+
     server {
         listen          80;
         access_log      off;
         error_log       /var/log/nginx/http.error.log;
-    
+
         charset         utf-8;
         location / {
             uwsgi_pass  unix:///tmp/uwsgi.sock;
@@ -316,24 +316,24 @@ Add a file in /etc/nginx/sites-available/, for example named demo:
 
 
 
-The above code means Nginx accept requests from users on 80 port and forward them to uWSGI server via unix:///tmp/uwsgi.sock. And add a soft link to this file in folder /etc/nginx/sites-enabled: 
+The above code means Nginx accept requests from users on 80 port and forward them to uWSGI server via unix:///tmp/uwsgi.sock. And add a soft link to this file in folder /etc/nginx/sites-enabled:
 
 
 
 
-    
+
     ln -sf /etc/nginx/sites-available/demo /etc/nginx/sites-enabled/demo
 
 
 
 
 
-Now restart Nginx: 
+Now restart Nginx:
 
 
 
 
-    
+
     sudo /etc/init.d/nginx restart
 
 
@@ -351,49 +351,49 @@ Add the following lines to your production.ini/development.ini file:
 
 
 
-    
+
     [uwsgi]
     socket = /tmp/uwsgi.sock
     master = true
-    
+
     processes = 4
-    
+
     harakiri = 60
     harakiri-verbose = true
     limit-post = 65536
     post-buffering = 8192
-    
+
     daemonize = ./uwsgi.log
     pidfile = ./pid_5000.pid
-    
-    listen = 256 
-    
+
+    listen = 256
+
     max-requests = 1000
-    
-    reload-on-as = 128 
+
+    reload-on-as = 128
     reload-on-rss = 96
     no-orphans = true
-    
+
     log-slow = true
-    
+
     virtualenv = /home/your_name/.virtualenvs/env1
 
 
 
 
 
-This configure uWSGI to run in daemon mode logging errors to uwsgi.log file and the pid of the master process will be written to pid_5000.pid file. 
+This configure uWSGI to run in daemon mode logging errors to uwsgi.log file and the pid of the master process will be written to pid_5000.pid file.
 
 
 
 
 
-Now start uWSGI through the command line: 
+Now start uWSGI through the command line:
 
 
 
 
-    
+
     uwsgi --ini-paste-logged production.ini
 
 
@@ -404,12 +404,12 @@ The --ini-paste-logged option is only availabe in the development version. For t
 
 
 
-use ps to make sure uWSGI is up: 
+use ps to make sure uWSGI is up:
 
 
 
 
-    
+
     $ ps axu | grep uwsgi
     leon 16510 19.0  0.3  96072 30032 ?        S    18:06   0:00 uwsgi --ini-paste production.ini
     leon 16511  0.0  0.3  96072 26972 ?        S    18:06   0:00 uwsgi --ini-paste production.ini
@@ -428,7 +428,7 @@ As you can see, the uWSGI server make up 1 master process and 4 worker processes
 
 
 
-View the uwsgi.log file to resolve errors. 
+View the uwsgi.log file to resolve errors.
 
 
 
@@ -439,7 +439,7 @@ To reload uWSGI, simply run:
 
 
 
-    
+
     uwsgi --reload pid_5000.pid
 
 
@@ -451,7 +451,7 @@ To stop uWSGI, simply run:
 
 
 
-    
+
     uwsgi --stop pid_5000.pid
 
 
@@ -464,12 +464,12 @@ To stop uWSGI, simply run:
 
 
 
-By default, the alchemy scaffold use sqlite database. Let's replace it with MySQL. Modify the development.ini/production.ini to modify the value of sqlalchemy.url: 
+By default, the alchemy scaffold use sqlite database. Let's replace it with MySQL. Modify the development.ini/production.ini to modify the value of sqlalchemy.url:
 
 
 
 
-    
+
     sqlalchemy.url = mysql://username:password@127.0.0.1/dbname?charset=utf8&use_unicode=0
 
 
@@ -487,7 +487,7 @@ Run the following commands:
 
 
 
-    
+
     echo 3000 > /proc/sys/net/core/somaxconn
     echo 81920 > /proc/sys/net/ipv4/tcp_max_syn_backlog
 
@@ -495,4 +495,4 @@ Run the following commands:
 
 
 
-That's all. 
+That's all.

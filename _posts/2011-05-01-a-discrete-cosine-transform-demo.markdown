@@ -23,7 +23,7 @@ Note that DCT is a lossless transformation, and only the quantization remove som
 
 The following demo, which is written in Matlab, demonstrates that DCT is lossless, because data is transformed and then restored to original data.
 
-``` matlab    
+``` matlab
 %DCT Demo
 %Created by Leon
 %http://leons.im
@@ -40,7 +40,7 @@ gx=(au.*cu)*(cosu')
 
 The result is:
 
-``` matlab    
+``` matlab
 gx =
 
     3.0000   89.0000   23.0000   11.0000    0.0000   82.0000  854.0000   23.0000

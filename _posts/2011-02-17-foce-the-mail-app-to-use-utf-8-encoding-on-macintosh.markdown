@@ -16,7 +16,7 @@ tags:
 - UTF-8
 ---
 
-Open a terminal, and run the following command: 
+Open a terminal, and run the following command:
 
 {% highlight bash linenos %}
 defaults write com.apple.mail NSPreferredMailCharset "UTF-8"

@@ -11,7 +11,7 @@ title: Nonlinear System
 clear;
 x1=100;x2=100;x3=100;
 for n=1:500
-    if x1==0 && x2==1/3 && x3==0 
+    if x1==0 && x2==1/3 && x3==0
         break
     end
     n
@@ -26,7 +26,7 @@ J=[sin(x1)/81 x2*2/9 cos(x3)/3;cos(x1)/3 0 -sin(x3)/3;sin(x1)/9 1/3 cos(x3)/6];
 max(eig(J))
 x1=1;x2=3;x3=3;
 for n=1:100
-    if x1==0 && x2==1/3 && x3==0 
+    if x1==0 && x2==1/3 && x3==0
         break
     end
     n

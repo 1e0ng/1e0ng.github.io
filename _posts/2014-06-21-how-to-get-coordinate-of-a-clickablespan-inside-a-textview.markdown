@@ -49,8 +49,8 @@ public void onClick(View widget) {
     parentTextView.getLocationOnScreen(parentTextViewLocation);
 
     double parentTextViewTopAndBottomOffset = (
-        parentTextViewLocation[1] - 
-        parentTextView.getScrollY() + 
+        parentTextViewLocation[1] -
+        parentTextView.getScrollY() +
         parentTextView.getCompoundPaddingTop()
     );
     parentTextViewRect.top += parentTextViewTopAndBottomOffset;
@@ -58,16 +58,16 @@ public void onClick(View widget) {
 
     parentTextViewRect.left += (
         parentTextViewLocation[0] +
-        startXCoordinatesOfClickedText + 
-        parentTextView.getCompoundPaddingLeft() - 
+        startXCoordinatesOfClickedText +
+        parentTextView.getCompoundPaddingLeft() -
         parentTextView.getScrollX()
     );
     parentTextViewRect.right = (int) (
-        parentTextViewRect.left + 
-        endXCoordinatesOfClickedText - 
+        parentTextViewRect.left +
+        endXCoordinatesOfClickedText -
         startXCoordinatesOfClickedText
     );
-    
+
     int x = (parentTextViewRect.left + parentTextViewRect.right) / 2;
     int y = parentTextViewRect.bottom;
     if (keywordIsInMultiLine) {

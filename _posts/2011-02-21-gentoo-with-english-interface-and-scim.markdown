@@ -29,35 +29,35 @@ To install SCIM, follow the following steps:
 
 
 
-Add these lines to the .xinitc file:  
+Add these lines to the .xinitc file:
 
 {% highlight bash linenos %}
-export XMODIFIERS=@im=SCIM  
-export GTK_IM_MODULE=scim  
-export QT_IM_MODULE=scim  
+export XMODIFIERS=@im=SCIM
+export GTK_IM_MODULE=scim
+export QT_IM_MODULE=scim
 /usr/bin/scim -d
 {% endhighlight %}
 
-As a result, the .xinitc file may look like this:  
+As a result, the .xinitc file may look like this:
 
 {% highlight bash linenos %}
-export XDG_MENU_PREFIX=gnome-  
-export XMODIFIERS=@im=SCIM  
-export GTK_IM_MODULE=scim  
-export QT_IM_MODULE=scim  
-/usr/bin/scim -d  
+export XDG_MENU_PREFIX=gnome-
+export XMODIFIERS=@im=SCIM
+export GTK_IM_MODULE=scim
+export QT_IM_MODULE=scim
+/usr/bin/scim -d
 exec gnome-session
 {% endhighlight %}
 
-If your SCIM can startup, but it can't switch to pinyin engine, you can add a line to the .xinitc file:  
+If your SCIM can startup, but it can't switch to pinyin engine, you can add a line to the .xinitc file:
 
 {% highlight bash linenos %}
-export XDG_MENU_PREFIX=gnome-  
-export LC_CTYPE=zh_CN.UTF-8  
-export XMODIFIERS=@im=SCIM  
-export GTK_IM_MODULE=scim  
-export QT_IM_MODULE=scim  
-/usr/bin/scim -d  
+export XDG_MENU_PREFIX=gnome-
+export LC_CTYPE=zh_CN.UTF-8
+export XMODIFIERS=@im=SCIM
+export GTK_IM_MODULE=scim
+export QT_IM_MODULE=scim
+/usr/bin/scim -d
 exec gnome-session
 {% endhighlight %}
 

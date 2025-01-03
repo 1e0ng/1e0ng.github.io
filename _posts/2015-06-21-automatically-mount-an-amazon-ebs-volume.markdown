@@ -81,7 +81,7 @@ xvda1 202:1    0    8G  0 disk /
     c. Add a new line to the end of the file for your volume using the following format.
 
         ```
-device_name  mount_point  file_system_type  fs_mntops  fs_freq  fs_passno  
+device_name  mount_point  file_system_type  fs_mntops  fs_freq  fs_passno
         ```
 
         The last three fields on this line are the file system mount options, the dump frequency of the file system, and the order of file system checks done at boot time. If you don't know what these values should be, then use the values in the example below for them (defaults,nofail 0 2). For more information on /etc/fstab entries, see the fstab manual page (by entering man fstab on the command line). For example, to mount the ext4 file system on the device /dev/xvdf at the mount point /data, add the following entry to /etc/fstab.

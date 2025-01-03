@@ -50,7 +50,7 @@ F:ADE
 ```
 
 
-Don't view my source code: 
+Don't view my source code:
 
 
 ``` cpp POJ 1129 Channel Allocation

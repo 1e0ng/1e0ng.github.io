@@ -12,7 +12,7 @@ categories:
 I have got this error many times. Today, I dived into it and resolved it.
 
 I use php-fpm and nginx on my server. Occasionally, I got 502 bad request error. When I check the nginx log, it says `upstream sent too big header`. In my memory, the default buffer size if big enough. To make sure it's not caused by this, I add the following lines to the nginx configuration file:
-<!-- more --> 
+<!-- more -->
 
 ```
 proxy_buffers 16 16k;

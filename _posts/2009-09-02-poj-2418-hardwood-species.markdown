@@ -26,7 +26,7 @@ Here is the source code:
 
 Use Quick Sort:
 
-``` cpp POJ 2418 Hardwood Species (Use Quick Sort) 
+``` cpp POJ 2418 Hardwood Species (Use Quick Sort)
 #include <iostream>
 #include <cstring>
 using namespace std;

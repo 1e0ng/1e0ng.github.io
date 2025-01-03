@@ -3,12 +3,12 @@ layout: post
 title: "How to set up an OpenGL project with XCode"
 date: 2013-01-06 21:22
 comments: true
-categories: 
+categories:
 - Mac OS
 - Graphics
 ---
 
-If you search this topic, you find few people are talking about this. Why? because it's too easy to set up an OpenGL project for Mac. But I still write this article, because maybe someone are finding something like a quick start. 
+If you search this topic, you find few people are talking about this. Why? because it's too easy to set up an OpenGL project for Mac. But I still write this article, because maybe someone are finding something like a quick start.
 
 Unlike other platforms, in Mac, you don't need to install OpenGL independently. To use OpenGL in Mac, you need to install XCode first.
 
@@ -155,40 +155,40 @@ void display()
 {
     GLfloat vertices[4][3] = { {0.0, 0.0, 0.0}, {EDGE, 0.0, 0.0}, {EDGE/2, EDGE*SQR3/2, 0.0}, {EDGE/2, EDGE*SQR3/6, EDGE*SQR6/3} };
     GLfloat colors[4][3] = { {1.0, 1.0, 0.5}, {0.5, 1.0, 0.5}, {0.5, 0.8, 0.5}, {0.5, 0.5, 1.0} };
-    
+
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-    
+
     glBegin(GL_TRIANGLES);
     divide_triangle(vertices, colors);
     glEnd();
     glFlush();
-    
+
 }
 
 void myinit() {
     glEnable(GL_DEPTH_TEST);
     glClearColor(1.0, 1.0, 1.0, 1.0);
     glColor3f(0.0, 1.0, 0.0);
-    
+
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
     glOrtho(0, EDGE, 0, EDGE*SQR3/2, -EDGE, 0);
-    
+
     glMatrixMode(GL_MODELVIEW);
 }
 
 int main(int argc, char** argv)
 {
     glutInit(&argc, argv);
-    
+
     glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE | GLUT_DEPTH);
-    
+
     glutInitWindowSize(500, 500*SQR3/2);
     glutInitWindowPosition(0, 0);
     glutCreateWindow("GLUT Program");
-    
+
     glutDisplayFunc(display);
-    
+
     myinit();
     glutMainLoop();
     return 0;

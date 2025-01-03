@@ -79,11 +79,11 @@ Intel x86 FLAGS register
 Bit #	Abbreviation	Description	Category[1]
 FLAGS
 0	CF	Carry flag	S
-1	1	Reserved	 
+1	1	Reserved	
 2	PF	Parity flag	S
-3	0	Reserved	 
+3	0	Reserved	
 4	AF	Adjust flag	S
-5	0	Reserved	 
+5	0	Reserved	
 6	ZF	Zero flag	S
 7	SF	Sign flag	S
 8	TF	Trap flag (single step)	X
@@ -92,7 +92,7 @@ FLAGS
 11	OF	Overflow flag	S
 12, 13	1,1 / IOPL	I/O privilege level (286+ only) always 1 on 8086 and 186	X
 14	1 / NT	Nested task flag (286+ only) always 1 on 8086 and 186	X
-15	1 on 8086 and 186, should be 0 above	Reserved	 
+15	1 on 8086 and 186, should be 0 above	Reserved	
 EFLAGS
 16	RF	Resume flag (386+ only)	X
 17	VM	Virtual 8086 mode flag (386+ only)	X
@@ -100,18 +100,18 @@ EFLAGS
 19	VIF	Virtual interrupt flag (Pentium+)	X
 20	VIP	Virtual interrupt pending (Pentium+)	X
 21	ID	Able to use CPUID instruction (Pentium+)	X
-22	0	Reserved	 
-23	0	Reserved	 
-24	0	Reserved	 
-25	0	Reserved	 
-26	0	Reserved	 
-27	0	Reserved	 
-28	0	Reserved	 
-29	0	Reserved	 
-30	0	Reserved	 
-31	0	Reserved	 
+22	0	Reserved	
+23	0	Reserved	
+24	0	Reserved	
+25	0	Reserved	
+26	0	Reserved	
+27	0	Reserved	
+28	0	Reserved	
+29	0	Reserved	
+30	0	Reserved	
+31	0	Reserved	
 RFLAGS
-32-63	0	Reserved	 
+32-63	0	Reserved	
 ```
 
 That means when the program is running in normal mode, it runs one step (0×00401045) and then due to the Trap Flag it handles the exception by the Structured Exception Handler and runs into address 0×00401060, which is the right entrance of the program. But if the program is running in debug mode, it runs one step (0×00401045) and it continues to execute the following instructions, because in debug mode, the Trap Flag is ignored. So the program enters the wrong way and exists.

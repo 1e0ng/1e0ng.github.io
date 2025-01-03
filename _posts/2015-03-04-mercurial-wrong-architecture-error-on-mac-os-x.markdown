@@ -3,7 +3,7 @@ layout: post
 title: "Mercurial wrong architecture error on Mac OS X"
 date: 2015-03-04 20:24:47 +0800
 comments: true
-categories: 
+categories:
 ---
 
 If you install Mercurial(hg) via `brew install mercurial`, it succeeds to install, but when you run `hg` command, it fails with the following error message:

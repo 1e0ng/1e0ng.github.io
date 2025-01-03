@@ -13,11 +13,11 @@ tags:
 - Sudoku
 ---
 
-[Sudoku](http://en.wikipedia.org/wiki/Sudoku) is a popular game. Howerver, solving Sudoku is sometimes not so easy, so I wrote a program to help me do this job. 
+[Sudoku](http://en.wikipedia.org/wiki/Sudoku) is a popular game. Howerver, solving Sudoku is sometimes not so easy, so I wrote a program to help me do this job.
 
 <!-- more -->
 
-``` cpp Solving Suduku    
+``` cpp Solving Suduku
 
 // Created by Leon in 2011
 // http://leons.im
@@ -35,7 +35,7 @@ int in[9][9] = { {9, 0, 0, 0, 5, 0, 7, 0, 0},
                  {8, 0, 5, 2, 0, 9, 0, 7, 0},
                  {1, 0, 0, 0, 6, 0, 0, 0, 3},
                  {0, 9, 0, 3, 0, 0, 1, 0, 5},
-                  
+
                  {7, 0, 0, 4, 0, 0, 5, 2, 0},
                  {3, 0, 4, 5, 0, 1, 0, 6, 0},
                  {0, 0, 9, 0, 8, 0, 0, 0, 1} };
@@ -105,7 +105,7 @@ int main() {
                     for (unsigned p = 0; p < 3; ++p) {
                         pos[si + k][sj + p] |= m;
                     }
-                } 
+                }
             }
         }
         printf("\n");

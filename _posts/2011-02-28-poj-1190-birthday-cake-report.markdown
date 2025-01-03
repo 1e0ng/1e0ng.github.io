@@ -17,7 +17,7 @@ View this problem on POJ: [1190 Birthday Cake (生日蛋糕)](http://poj.org/pr
 
 There is no good methods, maybe dynamic programing is feasible, but it's too complex for me to construct the transformation equation.
 
-I have to use DFS (Depth First Search) to solve this problem. After the TLE (Time Limit Exceeds) appeared enough times, I worked it out. Pruning is very important for this problem. 
+I have to use DFS (Depth First Search) to solve this problem. After the TLE (Time Limit Exceeds) appeared enough times, I worked it out. Pruning is very important for this problem.
 
 <!-- more -->
 

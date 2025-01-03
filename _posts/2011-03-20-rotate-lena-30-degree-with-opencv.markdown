@@ -29,7 +29,7 @@ Now, I want to rotate this picture 30 degree like this:
 Here is the code:
 
 
-``` cpp Rotate Lena 30 Degrees 
+``` cpp Rotate Lena 30 Degrees
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
@@ -42,7 +42,7 @@ Here is the code:
 
 #define PI acos(-1)
 int main() {
-  IplImage* img = 0; 
+  IplImage* img = 0;
   int height,width,step,channels;
   uchar *data, *result;
   int i,j,k,t,x,y;
@@ -51,7 +51,7 @@ int main() {
   cosa = cos(angle);
   sina = sin(angle);
 
-  // load an image  
+  // load an image
   img=cvLoadImage("lena.bmp");
   if(!img){
     printf("Could not load image filen");
@@ -65,11 +65,11 @@ int main() {
   channels  = img->nChannels;
   data      = (uchar *)img->imageData;
   result	= (uchar *)malloc(height * step);
-  printf("Processing a %dx%d image with %d channelsn",height,width,channels); 
+  printf("Processing a %dx%d image with %d channelsn",height,width,channels);
 
 
   // create a window
-  cvNamedWindow("mainWin", CV_WINDOW_AUTOSIZE); 
+  cvNamedWindow("mainWin", CV_WINDOW_AUTOSIZE);
   cvMoveWindow("mainWin", 100, 100);
 
   // invert the image
@@ -100,18 +100,18 @@ int main() {
   return 0;
 }
 ```
-    
+
 
 Here is my Makefile on Linux:
 
-    
+
 {% highlight make linenos %}
 CC = g++
 CFLAGS = `pkg-config --cflags opencv` `pkg-config --libs opencv`
 
 hello : hello-world.cpp
-	PKG_CONFIG_PATH=/usr/local/lib/pkgconfig && 
-	export PKG_CONFIG_PATH && 
+	PKG_CONFIG_PATH=/usr/local/lib/pkgconfig &&
+	export PKG_CONFIG_PATH &&
 	$(CC) $(CFLAGS) hello-world.cpp -o hello
 {% endhighlight %}
 

@@ -20,7 +20,7 @@ tags:
 
 Connecting prestashop to social network will bring more customers and draw more attentions. Which social network is best for a website? My answer is why not add them all.
 <!-- more -->
-First, add the following code to where you want to show Pin it button, Google +1 button, Facebook like button and Tweet button (for example, in the product.tpl file): 
+First, add the following code to where you want to show Pin it button, Google +1 button, Facebook like button and Tweet button (for example, in the product.tpl file):
 
 {% highlight html linenos %}
 <!-- Pinterest Pin it button -->
@@ -44,45 +44,45 @@ First, add the following code to where you want to show Pin it button, Google +1
 
 
 
-Second, add the following code to the place right before </body> tag in same file(in this case, the product.tpl file): 
+Second, add the following code to the place right before </body> tag in same file(in this case, the product.tpl file):
 
-``` javascript    
+``` javascript
 <!-- Pinterest js file -->
 <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js">
 </script>
 
-<p><!-- Google +1 js file --> 
-<script type="text/javascript"> 
-    window.___gcfg = { 
-        lang: 'en-US' 
+<p><!-- Google +1 js file -->
+<script type="text/javascript">
+    window.___gcfg = {
+        lang: 'en-US'
     };
-(function() { 
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; 
-    po.src = '<a href="https://apis.google.com/js/plusone.js';">https://apis.google.com/js/plusone.js';</a> 
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); 
-})(); 
+(function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = '<a href="https://apis.google.com/js/plusone.js';">https://apis.google.com/js/plusone.js';</a>
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
 </script>
-<!-- Twitter js file --> 
-<script> 
-    !function(d,s,id){ 
-        var js,fjs=d.getElementsByTagName(s)[0]; 
-        if(!d.getElementById(id)){ 
-            js=d.createElement(s); 
-            js.id=id; 
-            js.src="//platform.twitter.com/widgets.js"; 
-            fjs.parentNode.insertBefore(js,fjs); 
-        } 
-    }(document,"script","twitter-wjs"); 
+<!-- Twitter js file -->
+<script>
+    !function(d,s,id){
+        var js,fjs=d.getElementsByTagName(s)[0];
+        if(!d.getElementById(id)){
+            js=d.createElement(s);
+            js.id=id;
+            js.src="//platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js,fjs);
+        }
+    }(document,"script","twitter-wjs");
 </script>
-<!-- Facebook js file --> 
-<div id="fb-root"></div> 
-<script>(function(d, s, id) { 
-    var js, fjs = d.getElementsByTagName(s)[0]; 
-    if (d.getElementById(id)) return; 
-    js = d.createElement(s); js.id = id; 
-    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=174052042732019"; 
-    fjs.parentNode.insertBefore(js, fjs); 
-}(document, 'script', 'facebook-jssdk')); 
+<!-- Facebook js file -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=174052042732019";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
   </script>
 ```
 

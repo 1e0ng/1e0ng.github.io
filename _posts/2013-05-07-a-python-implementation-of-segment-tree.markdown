@@ -37,7 +37,7 @@ segtree.add(3, 6, 2)
 segtree.add(1, 71)
 print(segtree.query_max(2, 5)) #This should print 5
 print(segtree.query_len(2, 5)) #This should print 4
-print(segtree.query_sum(2, 5)) #This should print 16 
+print(segtree.query_sum(2, 5)) #This should print 16
 
 segtree = SegmentTree(0, 8)
 segtree.add(1, 1, 1)
