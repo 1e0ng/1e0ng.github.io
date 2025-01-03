@@ -18,7 +18,7 @@ These days, I'm playing some Supermicro motherboards. One of the most important 
 
 IPMI gives me confidence that I can play with BIOS now. Even if I flash with a corrupt BIOS file, then I can flash it back.  So there is nothing to worry about.
 
-<!-- more -->
+<!--more-->
 
 Now the only thing left is maybe a fuse, and now it comes today. I bought a [X9SCA-F](https://www.supermicro.com/products/motherboard/Xeon/C202_C204/X9SCA-F.cfm) for building my home NAS, a 10Gigabit NAS.
 

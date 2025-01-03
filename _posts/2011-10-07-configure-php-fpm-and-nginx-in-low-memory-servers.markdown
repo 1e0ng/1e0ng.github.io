@@ -17,7 +17,7 @@ tags:
 Recently, I registered an [Amazon EC2](http://aws.amazon.com/ec2/), ie Elastic Compute Cloud, with a free tier for the first year. The machine has only 600M memory. That is so few that it took me a few days to optimize my configuration files to make my blog and other web service run on this machine.
 
 Before I use EC2, my blog is based on LAMP(Linux, Apache, MySQL, PHP). I decided to replace it with LNMP(Linux, Nginx, MySQL, PHP), since Nginx is said to be more efficient than Apache. To install all these is simple:
-<!-- more -->
+<!--more-->
 
 {% highlight bash linenos %}
 # yum install php nginx mysql-server mysql-devel php-fpm

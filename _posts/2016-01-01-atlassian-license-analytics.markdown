@@ -11,7 +11,7 @@ categories:
 Bitbucket Server, Jira, Confluence, Crowd etc, so many excellent software come from a same company --- Atlassian. Some of them are technically designed well (even though not best), so they are good study cases. These days I'm interested in the license generating algorithm, so I dig into them for studying. Its license algorithm is DSA. Theoritically, it's impossible to know the private key, so the private key can be think as unknown and safe. Without private key, it's impossible to generate the corresponding signature for raw text. In this way, it makes sure that every issued license is from the owner.
 
 To better understand the relationship between orignal text and the license text, I write a Python code to uncover the original text from a license text.
-<!-- more -->
+<!--more-->
 
 {% highlight python linenos %}
 import zlib

@@ -21,7 +21,7 @@ Usually, when we want to arrange some blocks horizontally with CSS, we may choos
 
 According to [http://www.quirksmode.org/css/display.html](http://www.quirksmode.org/css/display.html), inline-block is not supported by IE 5.5 and it's not completely supported by IE 6 and IE 7.
 
-<!-- more -->
+<!--more-->
 
 [![](/uploads/2011-12-display.png)](/uploads/2011-12-display.png)
 

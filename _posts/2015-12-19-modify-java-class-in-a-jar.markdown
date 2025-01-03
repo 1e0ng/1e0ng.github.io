@@ -12,7 +12,7 @@ Sometimes I need to know what's inside to figure out a best solution, like modif
 After searching google and stack overflow for a while, I found this question is little cared, and almost all information is not complete.
 So I wrap them up and make the whole process runnable.
 
-<!-- more -->
+<!--more-->
 
 Use luyten (or JD GUI if you don't care its bugs) to decompile the jar, and save all files to folder `srcdir`
 

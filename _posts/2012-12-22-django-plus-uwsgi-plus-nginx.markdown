@@ -49,7 +49,7 @@ workers=8
 pidfile=/home/leon/mysite/uwsgi-master.pid
 max-requests=5000
 ```
-<!-- more -->
+<!--more-->
 
 - `socket` is for communication with Nginx.
 - `virtualenv` is the path of your virtual environment.

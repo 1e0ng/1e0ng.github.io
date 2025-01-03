@@ -46,7 +46,7 @@ date.timezone = Asia/Shanghai
 ### Second, install mongodb and mysql:
 
 
-<!-- more -->
+<!--more-->
 
 {% highlight bash linenos %}
 $sudo pacman –Syu mongodb mysql

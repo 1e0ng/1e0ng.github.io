@@ -58,7 +58,7 @@ But still, it's an object, and therefore:
 
 e.g.:
 
-<!-- more -->
+<!--more-->
 
 {% highlight python linenos %}
   >>> print(ObjectCreator) # you can print a class because it's an object

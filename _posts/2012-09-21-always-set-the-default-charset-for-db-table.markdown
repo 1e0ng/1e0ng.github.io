@@ -16,7 +16,7 @@ Today, I spent a long time to find a bug. I read code, but finally I found the c
 
 Record this to avoid making the same mistake. Character set should always be set while a table is created. For MySQL, the syntax is:
 
-<!-- more -->
+<!--more-->
 {% highlight sql linenos %}
 CREATE TABLE tbl_name (column_list)
     [[DEFAULT] CHARACTER SET charset_name]

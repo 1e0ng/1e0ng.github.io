@@ -16,7 +16,7 @@ Let’s play an interesting [Crack-me](http://en.wikipedia.org/wiki/Crackme) —
 
 When you run the crack-me with a debugger, say OllyDbg, the program pops up a message box saying “What the hell are you doing in my app with a debugger?” and then exists, but when you run the crack-me without a debugger, just double-click on it, it runs normally.
 
-<!-- more -->
+<!--more-->
 How does the crack-me do this? Let’s look the disassembling code:
 
 ```

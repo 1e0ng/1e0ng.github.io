@@ -7,7 +7,7 @@ categories:
 - Server
 ---
 
-On this year's Christmas holiday, I was planning to do some maintainess with my home server, which is a Super Micro SYS-7048GR-TR (or X10DRG-Q if folks are more familar with the motherboard model). Then supprise came, when I tried to do something real, every time. I wasn't able to connect to the server by IPMI web portal! The Chrome browser showed an error of ERR_ADDRESS_UNREACHABLE, which means the connection was rejected. First thing came to my mind is I got hacked. <!-- more -->
+On this year's Christmas holiday, I was planning to do some maintainess with my home server, which is a Super Micro SYS-7048GR-TR (or X10DRG-Q if folks are more familar with the motherboard model). Then supprise came, when I tried to do something real, every time. I wasn't able to connect to the server by IPMI web portal! The Chrome browser showed an error of ERR_ADDRESS_UNREACHABLE, which means the connection was rejected. First thing came to my mind is I got hacked. <!--more-->
 
 The first mistake I made was I didn't even try with another browser. I tried with the ipmitool command line tool, and it was successful. I quickly figured out 2 solutions:
 

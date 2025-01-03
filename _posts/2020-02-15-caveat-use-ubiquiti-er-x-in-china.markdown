@@ -9,7 +9,7 @@ categories:
 
 After reading some articles about Ubiquiti EdegeRouter X, I realize this is a device I have no resistance not to buy it. Gigabyte Ethernet, multi-WAN, configurable by CLI (thus a lot of fun), reasonable price, and most importantly, high reliability. I enjoy exploring configurations, and in the meantime, it's a double-edge knife, if not configured well, it could have a very negative effect on your network performance. In this article, I will describe 2 configurations that could severely affect the performance when using it in China.
 
-<!-- more -->
+<!--more-->
 
 Ubiquiti has a very user-friendly forum for beginners to learn almost all technologies for EdgeRouter X. However, for the second issue (if you think it's an issue), I don't find anything on the internet. Probably it's not that popular in China? Anyway, here is the story.
 

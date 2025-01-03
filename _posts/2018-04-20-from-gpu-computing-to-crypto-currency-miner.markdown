@@ -10,7 +10,7 @@ categories:
 
 OpenCL (Open Computing Language) is a new framework for writing programs that execute in parallel on different computing devices (such as CPUs and GPUs) from different vendors (AMD, Intel, ATI, Nvidia etc.). The framework defines a language to write “kernels” in. These kernels are the functions which are to run on the different computing devices. In this post, I explain how to get started with OpenCL and how to make a small OpenCL program that will compute the sum of two lists in parallel. After that, I will show you how to write a GPU Cryptocurrency miner with the help of OpenCL based on the knowledge we just learned.
 
-<!--more -->
+<!--more-->
 
 ### The kernel
 

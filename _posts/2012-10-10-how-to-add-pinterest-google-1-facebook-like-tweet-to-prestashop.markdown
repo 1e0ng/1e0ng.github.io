@@ -19,7 +19,7 @@ tags:
 ---
 
 Connecting prestashop to social network will bring more customers and draw more attentions. Which social network is best for a website? My answer is why not add them all.
-<!-- more -->
+<!--more-->
 First, add the following code to where you want to show Pin it button, Google +1 button, Facebook like button and Tweet button (for example, in the product.tpl file):
 
 {% highlight html linenos %}

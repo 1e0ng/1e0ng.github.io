@@ -13,7 +13,7 @@ Slack is gradually becoming the standard for modern office communication. While 
 
 Actually, Slack is more than just a communication tool. What makes it extraordinary is it provides the possibility to integrate everything and make your workflow complete. In this post we're highlighting some of the most useful new workflows that Slack is enabling. All these are currently heavily in use in our team, and we find they are exceptionally helpful.
 
-<!-- more -->
+<!--more-->
 
 
 ### Jira

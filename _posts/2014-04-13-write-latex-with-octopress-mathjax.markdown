@@ -10,7 +10,7 @@ categories:
 
 The easiest method is to add by Mathjax CDN, but the drawback are it's not always stable and it doesn't work if you want to develop offline and want to preview via the `rake preview` command. So I have to embed a customized version of Mathjax into Octopress. With this method, I can preview equations offline and it's more stable -- it doesn't depend on the public CDN of Mathjax. OK, DIY start.
 
-<!--more -->
+<!--more-->
 
 ## Install Mathjax
 

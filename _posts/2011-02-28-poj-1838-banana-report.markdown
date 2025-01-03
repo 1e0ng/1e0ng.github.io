@@ -19,7 +19,7 @@ View this problem on POJ: [1838 Banana](http://poj.org/problem?id=1838).
 
 This problem can be categorized as the Union-Find problem.
 
-<!-- more -->
+<!--more-->
 
 ```
 First, sort (xi,yi) by (x,y).

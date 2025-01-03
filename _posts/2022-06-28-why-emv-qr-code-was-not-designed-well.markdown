@@ -13,7 +13,7 @@ A lot of governments' authorities created their QR code standards based on EMV Q
 
 Even though EMV QR code is ubiqus, yet I don't think it's designed well from the beginning. Actually, to me, the EMV QR code looks very likely to be designed by someone with very little engineering excellence knowledge.
 
-<!-- more -->
+<!--more-->
 
 ## Effeciency
 

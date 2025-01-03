@@ -15,7 +15,7 @@ Segment trees support searching for all the intervals that contain a query point
 
 While I search for a Python implementation of segment tree, there is no good ones. So I write one.
 
-<!-- more -->
+<!--more-->
 
 It's open sourced on [github](https://github.com/leonsim/segmenttree)
 

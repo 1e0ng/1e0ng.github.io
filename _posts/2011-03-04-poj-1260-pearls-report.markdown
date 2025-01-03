@@ -19,7 +19,7 @@ It's a problem from a contest in Northwestern Europe, 2002.
 This is a classical Dynamic-Programing problem.
 The sate transformation equation is:
 
-<!-- more -->
+<!--more-->
 ```
 f(i)=min{ f(i - k) + [a(i - k + 1) + a(i - k + 2) + ... + a(i) + 10 ] * p(i) };  (1<=k<=i, 1<=i<=c)
 ```

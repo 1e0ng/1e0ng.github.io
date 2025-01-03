@@ -12,7 +12,7 @@ categories:
 
 This guides is for casting Android and iPhone Screen onto a Macbook or other computers through a USB cable. If you're searching a wireless solution, this is not. Actually after searching a lot, I find no good solution for wireless cast, so I admit this is a compromise solution. After all, fluency and resolution are more important.
 
-<!-- more -->
+<!--more-->
 
 ### Cast Android Screen onto Macbook
 

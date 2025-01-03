@@ -13,7 +13,7 @@ Even though SOCKS is a higher level protocol and more appropriate for doing prox
 
 The easiest way I find from my recent research is with [shadowsocks-libev](https://github.com/shadowsocks/shadowsocks-libev). Shadowsocks-libev is a lightweight secured SOCKS5 proxy for embedded devices and low-end boxes. Shadowsocks-libev is written in pure C and only depends on libev and OpenSSL or PolarSSL. The use of mbedTLS is added but still for testing, and it is not officially supported yet.
 
-<!-- more -->
+<!--more-->
 
 Note the original shadowsocks doesn't support `ss-redir`, and `shadowsocks-libev` seems to be the only port that supports `ss-redir`. `ss-redir` is different from `ss-local` in that it's TCP protocol rather than SOCKS protocol.
 

@@ -20,7 +20,7 @@ View this problem on POJ: [1990 MooFest](http://poj.org/problem?id=1990).
 
 Here is my resolution:
 
-<!-- more -->
+<!--more-->
 
 First, sort cows by v value.
 

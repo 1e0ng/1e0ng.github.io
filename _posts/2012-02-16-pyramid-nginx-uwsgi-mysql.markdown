@@ -68,7 +68,7 @@ If that still doesn't work, maybe you will have to download the [source code](ht
 ### 2. Install Pyramid
 
 
-<!-- more -->
+<!--more-->
 
 
     sudo apt-get install python-dev python-pip libjpeg62-dev

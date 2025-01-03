@@ -13,7 +13,7 @@ I'm not going to use a public domain name, neither will I issue a certificate th
 
 With that, I'm going to generate a self signed certificate with a generated CA on a domain name I generated dedicated for my router (router.local). Then I will import my CA to my devices that need to access the router. Finally I'll redirect my router's local IP address to a local domain name (router.local).
 
-<!-- more -->
+<!--more-->
 
 Now I'm gonig to show you how to archive all the above step by step.
 

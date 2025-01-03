@@ -25,7 +25,7 @@ To solve this problem, you need to learn the following knowledge first.
 
 If you know all the above, it's easy to solve this problem.
 
-<!-- more -->
+<!--more-->
 
 
 Try to solve by yourself, and don't look my source code:

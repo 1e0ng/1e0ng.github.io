@@ -20,7 +20,7 @@ In my previous article [Configure Mail Service with PHP Mail Function and Postfi
 
 Here, I will solve an issue which met by a lot of people, confused but don't know how to do: How to send mail in UTF-8? Here I will tell you how to send an email with not only a UTF-8 subject but also a UTF-8 content. It's simple. Just read the following code. Quote your subject with `'=?UTF-8?B?'` and `'?='`. You may choose to use HTML to edit your email content, just don't forget to declare UTF-8 character set. That's all.
 
-<!-- more -->
+<!--more-->
 ``` php
 <?php
 

@@ -12,7 +12,7 @@ To your disappointment, I'm not gonna to show up some theme plugins even though 
 #### Throttle Concurrent Builds Plugin
 
 This plugin allows for throttling the number of concurrent builds of a project running per node or globally.
-<!-- more -->
+<!--more-->
 
 #### Keychains and Provisioning Profiles Management
 This plugin integrates management of keychain and provisioning files for iOS and OSX projects.

@@ -11,7 +11,7 @@ For a start up, for a tech team, or for a community, what we use make who we are
 
 Which operating system, Windows, Linux or OS X, do you use as the default developing environment? Which operating system do you use as the production environment, Debian based, Red hat based, or Gentoo? Which cloud server do you use, AWS or other? Which language do you use as the main backend language, Python, Ruby, Node.js, or Java, PHP, C++? Which infrastructure do you use?
 
-<!-- more -->
+<!--more-->
 
 All those questions can have multiple answers. What you choose show what you believe. For some questions, there exists a best answer, but it's a best answer to most people, someone still believe alternatives and have their reasons.
 

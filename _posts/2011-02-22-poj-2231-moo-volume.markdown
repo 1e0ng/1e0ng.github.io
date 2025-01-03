@@ -17,7 +17,7 @@ tags:
 
 Here is my pseudo code
 
-<!-- more -->
+<!--more-->
 
 ```
 Sort the cows by their positions.

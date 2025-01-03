@@ -19,7 +19,7 @@ Sometimes, we would like to check if a remote host is reachable before we establ
 
 Here is the code:
 
-<!-- more -->
+<!--more-->
 ``` objc Test If A Host Is Active
 bool success = false;
 const char *host_name = [ip cStringUsingEncoding:NSASCIIStringEncoding];

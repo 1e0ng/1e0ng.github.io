@@ -11,7 +11,7 @@ categories:
 
 Even though the serieze of HeartBleeding bugs makes HTTPS (SSL) look vulnerable, I still believe after bugs fixed, HTTPS is more secure than HTTP. Actually we can archieve this in a few simple steps with technologies like OpenSSL, free certificate provider, nginx configuration.
 
-<!-- more -->
+<!--more-->
 
 ### Register an account at StartSSL
 

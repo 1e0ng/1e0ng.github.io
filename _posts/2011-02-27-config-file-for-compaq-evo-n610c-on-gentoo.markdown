@@ -21,7 +21,7 @@ Wow, Compaq Evo N610c...It's really an old machine...
 I searched the configure file for this machine, and fond only one page, but it's too old to work for the latest Gentoo system.
 Here is my configure file, which costs me days of work.
 
-<!-- more -->
+<!--more-->
 
 ```
 #

@@ -15,7 +15,7 @@ There is an integrated Vim on Mac OS, and also several brew version of Vim for c
 However, sometimes you find you have to compile Vim by source code,
 for getting the latest version of Vim, for customizing some configuration, for using some special features, or something else.
 
-<!-- more -->
+<!--more-->
 After struggling with issues several times, I decide to write the process down.
 
 First download the source code via `hg`

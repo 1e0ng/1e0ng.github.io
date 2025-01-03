@@ -18,7 +18,7 @@ tags:
 There are many cases you need to use friendly url. If you are using Apache, tipcially you can activate the URL rewriting module and write some rewriting rules with .htaccess file; While if you are using Nginx, you can also write some [rewriting rules](http://wiki.nginx.org/HttpRewriteModule#rewrite). Both of them support regular expression, so it's easy to translate from one to the other.
 
 To translate from the Apache's rewriting rule to the Nginx's, simply do the following substitutions:
-<!-- more -->
+<!--more-->
 
   1. Replace RewriteRule with rewrite
   2. Replace ^ with ^/

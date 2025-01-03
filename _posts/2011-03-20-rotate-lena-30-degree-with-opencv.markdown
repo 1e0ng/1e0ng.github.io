@@ -15,7 +15,7 @@ tags:
 
 With OpenCV, it's easy to rotate an image by code.
 
-<!-- more -->
+<!--more-->
 
 This is Lena:
 

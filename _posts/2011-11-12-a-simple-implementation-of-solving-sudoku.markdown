@@ -15,7 +15,7 @@ tags:
 
 [Sudoku](http://en.wikipedia.org/wiki/Sudoku) is a popular game. Howerver, solving Sudoku is sometimes not so easy, so I wrote a program to help me do this job.
 
-<!-- more -->
+<!--more-->
 
 ``` cpp Solving Suduku
 

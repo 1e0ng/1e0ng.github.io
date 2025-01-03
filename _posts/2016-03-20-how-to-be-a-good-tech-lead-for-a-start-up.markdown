@@ -11,7 +11,7 @@ To be a good tech lead in a start up is totally different from being CTO at a ma
 
 I'm gonna talk this in 9 respects. They are not all ordered by importances, even though some are.
 
-<!-- more -->
+<!--more-->
 ### Big Picture
 
 The most important thing is being aware of the big picture, ie the goal of this company, the current process, how many steps it's gona be. Always focus to the most important things. Resources are limited, you're gonna make a big differences and all these depends on how to use the limited resources to reslove the most critical problems in a limited time.

@@ -29,7 +29,7 @@ Input a product name.
 
 Then choose a location for you project and click `Next`.
 
-<!-- more -->
+<!--more-->
 
 ## Add OpenGL Support
 

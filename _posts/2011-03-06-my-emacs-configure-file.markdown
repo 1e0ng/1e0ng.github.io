@@ -15,7 +15,7 @@ tags:
 
 Open the file named ".emacs" in your home folder. (if it doesn't exist, create one.)  Copy the following code and paste it into the opening file. Save the file and restart Emacs.
 
-<!-- more -->
+<!--more-->
 
 ``` plain My Emacs Configure File
 (custom-set-variables

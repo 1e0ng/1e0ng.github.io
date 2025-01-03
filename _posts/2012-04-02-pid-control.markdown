@@ -22,7 +22,7 @@ The formular is:
 
 $$ u(t) = MV(t) = K_pe(t)+K_i\int_0^t \! {e(\tau) \, \mathrm{d}\tau}+K_d\dfrac{d}{dt}e(t) $$
 
-<!-- more -->
+<!--more-->
 
 Here is an example written with Python using PID to control a robot to drive along a circular track, and if the contest comes once more, I would say I have the prefect algorithm. :D
 

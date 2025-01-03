@@ -14,7 +14,7 @@ Note that you can take snapshots of your EBS volume for backup purposes or to us
 
 Use the following procedure to make the volume available. Note that you can get directions for volumes on a Windows instance from Making the Volume Available on Windows in the Amazon EC2 User Guide for Microsoft Windows Instances.
 
-<!-- more -->
+<!--more-->
 
 
 1. Connect to your instance using SSH. For more information, see Connect to Your Instance.

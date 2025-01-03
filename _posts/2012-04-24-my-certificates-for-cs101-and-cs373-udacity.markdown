@@ -11,7 +11,7 @@ categories:
 
 I received Certificate of Accomplishment with Highest Distinction, which the highest level of certificates, from Udacity for both CS101 (Introduction To Computer Science - Building A Search Engine) and CS373 (Programming a Robotic Car).
 
-<!-- more -->
+<!--more-->
 Here are the certificates: [cs101](http://leons.im/uploads/2012-04-cs101.pdf) and [cs373](http://leons.im/uploads/2012-04-cs373.pdf).
 
 [![](/uploads/2012-04-cs101.png)](/uploads/2012-04-cs101.png)

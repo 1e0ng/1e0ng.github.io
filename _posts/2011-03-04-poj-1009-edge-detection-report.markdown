@@ -17,7 +17,7 @@ View the problem at POJ: [1009 Edge Detection](http://poj.org/problem?id=1009).
 
 The answer should be in format of Run Time Encoding. Let val[i] be the value, and len[i] be the length of the i-th pair. There is a corresponding location for each pair, ie the start point, and let row[i] be the row, and col[i] be the column of the start point for the i-th pair.
 
-<!-- more -->
+<!--more-->
 First, let's prove this proposition: Each start point to output is adjacent to at least one start point from input.
 
 (Here adjacent means the difference between their compressed location is WIDTH - 1, WIDTH + 1, 1, -1, 0. Here compressed location of a point means the row of the point multiplied by WIDTH and plus the column of the point. "WIDTH" is the variable "width" from input.)

@@ -13,7 +13,7 @@ Recently, I'm reading [pediy](http://www.pediy.com)'s book: `Encryption and Decr
 
 The main algorithm is very simple, but it took me a lot of time to deal with the multi-byte characters problems, and I found there is another defination of unicode on Microsoft's platform! I can't figure out why Micro$oft didn't use UTF-8 to build his system just like Macintosh, because with UTF-8, we programmers don't have to deal with these troubles at all. Anyway, Windows is such a snorty that most people still have to use it.
 
-<!-- more -->
+<!--more-->
 Here is the main code:
 
 ``` cpp My First Keygen

@@ -28,7 +28,7 @@ to transform a single file to UTF-8 encoding, or
 toutf8 PATHNAME
 ```
 
-<!-- more -->
+<!--more-->
 
 to transform all files in folder PATHNAME to UTF-8 encoding.
 

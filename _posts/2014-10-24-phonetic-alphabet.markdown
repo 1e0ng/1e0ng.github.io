@@ -44,7 +44,7 @@ Z as in Zulu
 
 ### Western Union Phonetic Alphabet
 
-<!-- more -->
+<!--more-->
 
 ```
 A as in Adams

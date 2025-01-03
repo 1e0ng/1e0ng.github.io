@@ -20,7 +20,7 @@ This problem can be solved by two methods
 * Deepth First Search (DFS)
 * Dynamic Programming (DP)
 
-<!-- more -->
+<!--more-->
 As I don't know how to pruning, the first method will lead to Time Limit Exceed.
 
 So, … this is my DP method:

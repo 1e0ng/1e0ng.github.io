@@ -16,7 +16,7 @@ tags:
 
 With [Google Map API](http://code.google.com/apis/maps/documentation/webservices/index.html), you can do a lot of thing. Here I will use it to turn latitude and longitude into human-readable addresses.
 
-<!-- more -->
+<!--more-->
 
 This script has 2 parts. The first part generate a random location, ie latitude and longitude, with the Gaussion distribution which is a method in `random` package. Then it turns a coordinate into an address with [The Google Geocoding API](http://code.google.com/apis/maps/documentation/geocoding/).
 

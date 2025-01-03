@@ -16,7 +16,7 @@ tags:
 [View](http://poj.org/problem?id=2001) the Problem.
 
 This problem can be solved by 2 methods.
-<!-- more -->
+<!--more-->
 * Trie
 * Quick Sort
 

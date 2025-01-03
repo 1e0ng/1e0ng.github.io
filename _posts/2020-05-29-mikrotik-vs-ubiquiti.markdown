@@ -14,7 +14,7 @@ Now today, I want to talk about equipment across the 2 markets, MikroTik and Ubi
 
 So what would you consider for choosing a router or switch? I don't know you, but I would consider (from most important to least important): Security > Reliability > Noise Level > Performance (Throughput) > Hardware Interface > Scalability > User Experience > Power Source > Power Cost > Technical Support >  Rack Mount
 
-<!--more -->
+<!--more-->
 
 
 ## 1. Security

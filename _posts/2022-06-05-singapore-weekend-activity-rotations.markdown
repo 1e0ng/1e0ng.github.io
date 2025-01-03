@@ -15,7 +15,7 @@ categories:
 - Saint John's Island & Kasu Ireland
 - Bukit Batok Nature Park
 - Bukit Timah Nature Reserve
-<!-- more -->
+<!--more-->
 - MacRichie Reservoir Park
 - East Coast Park
 - West Coast Park

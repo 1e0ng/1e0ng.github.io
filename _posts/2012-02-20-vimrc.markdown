@@ -15,7 +15,7 @@ I'm using vim while still using emacs.
 
 Just record my .vimrc file here.
 
-<!-- more -->
+<!--more-->
 
     if v:lang =~ "utf8$" || v:lang =~ "UTF-8$"
        set fileencodings=utf-8,latin1

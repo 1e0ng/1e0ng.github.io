@@ -19,7 +19,7 @@ There is no good methods, maybe dynamic programing is feasible, but it's too com
 
 I have to use DFS (Depth First Search) to solve this problem. After the TLE (Time Limit Exceeds) appeared enough times, I worked it out. Pruning is very important for this problem.
 
-<!-- more -->
+<!--more-->
 
 My source code:
 

@@ -14,7 +14,7 @@ tags:
 
 This is an example that shows how to redirect (forward) to a new page in PHP.
 
-<!-- more -->
+<!--more-->
 ``` php PHP Redirect Code
 <?php
     header("HTTP/1.1 301 Moved Permanently");

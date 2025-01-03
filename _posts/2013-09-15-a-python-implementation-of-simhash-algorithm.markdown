@@ -17,7 +17,7 @@ Properties of simhash: Note that simhash possesses two conicting properties: (A)
 
 Maybe it's because of the beauty of the algorithm, I find myself implementing it. <https://github.com/leonsim/simhash>
 
-<!-- more -->
+<!--more-->
 
 ## Getting Started
 
