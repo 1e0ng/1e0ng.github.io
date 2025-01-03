@@ -3,8 +3,7 @@ layout: post
 title: "Write LaTeX in Octopress with MathJax"
 date: 2014-04-13 15:08:24 +0800
 comments: true
-categories: articles
-tags:
+categories:
 - Web
 - Math
 ---

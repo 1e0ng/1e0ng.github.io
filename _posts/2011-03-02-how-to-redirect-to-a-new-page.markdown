@@ -5,8 +5,7 @@ layout: post
 slug: how-to-redirect-to-a-new-page
 title: How To Redirect to a New Page
 wordpress_id: 406
-categories: articles
-tags:
+categories:
 - Web
 tags:
 - PHP

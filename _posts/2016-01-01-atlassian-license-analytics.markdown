@@ -3,8 +3,7 @@ layout: post
 title: "Atlassian License Analytics"
 date: 2016-01-01 00:17:38 +0800
 comments: true
-categories: articles
-tags:
+categories:
 - Python
 - security
 ---

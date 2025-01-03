@@ -5,8 +5,7 @@ layout: post
 slug: set-up-a-server-environment-on-arch
 title: Set Up a Server Environment on Arch
 wordpress_id: 664
-categories: articles
-tags:
+categories:
 - Linux
 tags:
 - Arch

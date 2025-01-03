@@ -3,8 +3,7 @@ layout: post
 title: "A Python Implementation Of Simhash Algorithm"
 date: 2013-09-15 00:10
 comments: true
-categories: articles
-tags:
+categories:
 - Algorithm
 
 ---

@@ -5,8 +5,7 @@ layout: post
 slug: poj-1990-moofest-report
 title: POJ 1990 MooFest Report
 wordpress_id: 342
-categories: articles
-tags:
+categories:
 - Problems
 post_format:
 - Gallery

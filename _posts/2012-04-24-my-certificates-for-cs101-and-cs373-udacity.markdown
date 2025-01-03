@@ -5,8 +5,7 @@ layout: post
 slug: my-certificates-for-cs101-and-cs373-udacity
 title: My Certificates For CS101 And CS373 @ Udacity
 wordpress_id: 947
-categories: articles
-tags:
+categories:
 - Education
 ---
 

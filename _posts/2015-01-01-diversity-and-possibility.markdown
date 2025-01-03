@@ -3,8 +3,7 @@ layout: post
 title: "Diversity and Possibility"
 date: 2015-01-01 21:34:34 +0800
 comments: true
-categories: articles
-tags:
+categories:
 - Life
 ---
 

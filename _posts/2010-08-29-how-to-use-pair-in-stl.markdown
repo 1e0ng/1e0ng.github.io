@@ -5,8 +5,7 @@ layout: post
 slug: how-to-use-pair-in-stl
 title: How to use "pair" in STL?
 wordpress_id: 226
-categories: articles
-tags:
+categories:
 - CPP
 
 tags:

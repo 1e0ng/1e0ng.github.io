@@ -5,8 +5,7 @@ layout: post
 slug: gentoo-with-english-interface-and-scim
 title: Configuring Gentoo with English interface and SCIM
 wordpress_id: 259
-categories: articles
-tags:
+categories:
 - Linux
 post_format:
 - Gallery

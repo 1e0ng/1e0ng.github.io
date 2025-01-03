@@ -5,8 +5,7 @@ layout: post
 slug: poj-2184-cow-exhibition
 title: POJ 2184 Cow Exhibition
 wordpress_id: 309
-categories: articles
-tags:
+categories:
 - Problems
 post_format:
 - Gallery

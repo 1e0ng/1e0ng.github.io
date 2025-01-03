@@ -5,8 +5,7 @@ layout: post
 slug: configure-ssh-on-arch-linux
 title: Configure SSH on Arch Linux
 wordpress_id: 668
-categories: articles
-tags:
+categories:
 - Linux
 tags:
 - Arch

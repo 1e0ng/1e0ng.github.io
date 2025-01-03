@@ -3,8 +3,7 @@ layout: post
 title: "Upgrade Linux"
 date: 2015-07-03 15:50:03 +0800
 comments: true
-categories: articles
-tags:
+categories:
 - Linux
 
 ---

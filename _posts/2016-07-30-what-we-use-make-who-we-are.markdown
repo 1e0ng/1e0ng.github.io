@@ -3,8 +3,7 @@ layout: post
 title: "What We Use Make Who We Are"
 date: 2016-07-30 23:29:26 +0800
 comments: true
-categories: articles
-tags:
+categories:
 - start up
 ---
 

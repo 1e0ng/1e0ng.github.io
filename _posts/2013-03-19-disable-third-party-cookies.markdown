@@ -3,8 +3,7 @@ layout: post
 title: "Disable Third-Party Cookies"
 date: 2013-03-19 22:17
 comments: true
-categories: articles
-tags: 
+categories: 
 - Security
 - Web
 

@@ -5,8 +5,7 @@ layout: post
 slug: how-to-test-if-a-host-is-active
 title: How To Test If A Host Is Active
 wordpress_id: 385
-categories: articles
-tags:
+categories:
 - Mac OS
 - Network
 tags:

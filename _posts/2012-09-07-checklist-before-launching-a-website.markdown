@@ -5,8 +5,7 @@ layout: post
 slug: checklist-before-launching-a-website
 title: Checklist Before Launching A Website
 wordpress_id: 1020
-categories: articles
-tags:
+categories:
 - Web
 tags:
 - Configuration

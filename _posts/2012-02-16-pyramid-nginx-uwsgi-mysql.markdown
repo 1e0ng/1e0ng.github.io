@@ -5,8 +5,7 @@ layout: post
 slug: pyramid-nginx-uwsgi-mysql
 title: Pyramid + Nginx + uWSGI + MySQL
 wordpress_id: 911
-categories: articles
-tags:
+categories:
 - Web
 tags:
 - MySQL

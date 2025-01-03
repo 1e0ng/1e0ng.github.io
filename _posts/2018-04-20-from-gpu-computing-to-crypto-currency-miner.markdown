@@ -3,8 +3,7 @@ layout: post
 title: "From GPU Computing to Cryptocurrency Miner"
 date: 2018-04-20 22:33:44 +0800
 comments: true
-categories: articles
-tags: 
+categories: 
 - GPU
 - Cryptocurrency
 ---

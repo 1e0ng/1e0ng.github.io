@@ -5,8 +5,7 @@ layout: post
 slug: ssh-login-without-password
 title: SSH login without password
 wordpress_id: 875
-categories: articles
-tags:
+categories:
 - Linux
 tags:
 - Password

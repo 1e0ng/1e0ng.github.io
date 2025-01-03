@@ -3,8 +3,7 @@ layout: post
 title: "Snipet to Insert HTML at Caret"
 date: 2013-07-30 10:27
 comments: true
-categories: articles
-tags: 
+categories: 
 - javascript
 ---
 

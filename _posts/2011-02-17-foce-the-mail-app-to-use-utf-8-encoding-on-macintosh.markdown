@@ -5,8 +5,7 @@ layout: post
 slug: foce-the-mail-app-to-use-utf-8-encoding-on-macintosh
 title: Force the Mail.app to use UTF-8 encoding on Macintosh
 wordpress_id: 145
-categories: articles
-tags:
+categories:
 - Mac OS
 post_format:
 - Gallery

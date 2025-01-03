@@ -5,8 +5,7 @@ layout: post
 slug: poj-2418-hardwood-species
 title: POJ 2418 Hardwood Species
 wordpress_id: 292
-categories: articles
-tags:
+categories:
 - Problems
 tags:
 - '2418'

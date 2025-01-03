@@ -3,8 +3,7 @@ layout: post
 title: "Southeast Asia's Diversity in Language."
 date: 2017-09-06 19:55:19 +0800
 comments: true
-categories: articles
-tags:
+categories:
 - Life
 ---
 

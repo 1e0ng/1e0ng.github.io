@@ -3,8 +3,7 @@ layout: post
 title: "Django + uWSGI + Nginx"
 date: 2012-12-22 16:45
 comments: true
-categories: articles
-tags: 
+categories: 
 - Server
 - Web
 ---

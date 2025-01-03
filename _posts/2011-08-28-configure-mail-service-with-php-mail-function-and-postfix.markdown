@@ -5,8 +5,7 @@ layout: post
 slug: configure-mail-service-with-php-mail-function-and-postfix
 title: Configure Mail Service with PHP Mail Function and Postfix
 wordpress_id: 745
-categories: articles
-tags:
+categories:
 - Web
 tags:
 - Arch

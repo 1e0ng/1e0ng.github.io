@@ -5,8 +5,7 @@ layout: post
 slug: always-set-the-default-charset-for-db-table
 title: Always Set the Default Charset for DB Table
 wordpress_id: 1036
-categories: articles
-tags:
+categories:
 - Database
 tags:
 - Character Set

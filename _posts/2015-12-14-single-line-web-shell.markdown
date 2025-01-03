@@ -3,8 +3,7 @@ layout: post
 title: "Single-Line Web Shell"
 date: 2015-12-14 22:52:46 +0800
 comments: true
-categories: articles
-tags:
+categories:
 - Security
 ---
 

@@ -5,8 +5,7 @@ layout: post
 slug: rotate-lena-30-degree-with-opencv
 title: How To Rotate An Image
 wordpress_id: 500
-categories: articles
-tags:
+categories:
 - Graphics
 tags:
 - Lena

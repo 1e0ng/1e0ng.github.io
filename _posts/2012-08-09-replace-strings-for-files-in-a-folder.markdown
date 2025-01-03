@@ -5,8 +5,7 @@ layout: post
 slug: replace-strings-for-files-in-a-folder
 title: Replace Strings For All Files In a Folder
 wordpress_id: 983
-categories: articles
-tags:
+categories:
 - Python
 ---
 

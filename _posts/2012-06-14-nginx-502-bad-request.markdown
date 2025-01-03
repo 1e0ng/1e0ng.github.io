@@ -5,8 +5,7 @@ layout: post
 slug: nginx-502-bad-request
 title: Nginx 502 Bad Request
 wordpress_id: 968
-categories: articles
-tags:
+categories:
 - Web
 ---
 

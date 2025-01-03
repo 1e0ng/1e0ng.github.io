@@ -3,8 +3,7 @@ layout: post
 title: "Root Android 5 in a Hacker Way"
 date: 2015-01-02 11:31:57 +0800
 comments: true
-categories: articles
-tags:
+categories:
 - Android
 ---
 

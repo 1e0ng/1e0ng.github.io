@@ -5,8 +5,7 @@ layout: post
 slug: how-to-configure-2-routers-on-home-network
 title: How to Configure 2 Routers on Home Network
 wordpress_id: 644
-categories: articles
-tags:
+categories:
 - Network
 tags:
 - 2 Routers

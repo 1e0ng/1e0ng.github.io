@@ -5,8 +5,7 @@ layout: post
 slug: poj-1190-birthday-cake-report
 title: POJ 1190 Birthday Cake Report
 wordpress_id: 352
-categories: articles
-tags:
+categories:
 - Skills
 tags:
 - '1190'

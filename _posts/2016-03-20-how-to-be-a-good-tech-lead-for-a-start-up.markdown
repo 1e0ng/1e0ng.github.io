@@ -3,8 +3,7 @@ layout: post
 title: "How to be a good tech lead for a start up"
 date: 2016-03-20 16:18:44 +0800
 comments: true
-categories: articles
-tags:
+categories:
 - management
 ---
 

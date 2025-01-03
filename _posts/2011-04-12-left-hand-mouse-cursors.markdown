@@ -5,8 +5,7 @@ layout: post
 slug: left-hand-mouse-cursors
 title: Left-handed Mouse Cursors
 wordpress_id: 582
-categories: articles
-tags:
+categories:
 - Skills
 ---
 

@@ -3,8 +3,7 @@ layout: post
 title: "Resolve Ubiquiti Router Web Console HTTPS Certificate Issue"
 date: 2020-12-16 21:20:29 +0800
 comments: true
-categories: articles
-tags: 
+categories: 
 - Network
 ---
 

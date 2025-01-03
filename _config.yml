@@ -1,29 +1,12 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 
 title: Next Spaceship
 email: i@liangsun.org
+author: Leon
+simple_search: https://www.google.com/search
 description: >- # this means to ignore newlines until "baseurl:"
   Drive into the future...
 baseurl: "" # the subpath of your site, e.g. /blog
-permalink: ":categories/:year/:month/:day/:title/"
+permalink: /posts/:title/
 url: "https://leons.im" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  1e0ng
 
@@ -33,7 +16,35 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-paginate: 5
+date_format: "ordinal"
+
+category_dir: topics
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  inptut: GFM
+
+paginate: 20
+paginate_path: "posts/:num"  # Directory base for pagination URLs eg. /posts/2/
+
+recent_posts: 10       # Posts in the sidebar Recent Posts section
+excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
+excerpt_separator: "<!--more-->"
+
+titlecase: true       # Converts page and post titles to titlecase
+
+sidebar: collapse
+# list each of the sidebar modules you want to include, in the order you want them to appear.
+# To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
+default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/sites.html, asides/blogroll.html, asides/tag_cloud.html, asides/googleplus.html]
+
+# Disqus Comments
+disqus_short_name: liangsun
+disqus_show_comment_count: true
+
+# Google Analytics
+google_analytics_tracking_id: UA-34173187-1
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -3,8 +3,7 @@ layout: post
 title: "Integrate everything into Slack"
 date: 2016-06-16 10:38:47 +0800
 comments: true
-categories: articles
-tags:
+categories:
 - tool
 - scrum
 ---

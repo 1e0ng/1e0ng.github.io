@@ -3,8 +3,7 @@ layout: post
 title: "The Formula of Annual Leave Days"
 date: 2012-12-31 00:00
 comments: true
-categories: articles
-tags:
+categories:
 - Math
 ---
 

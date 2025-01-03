@@ -3,8 +3,7 @@ layout: post
 title: "Setting Up MongoDB Replication on EC2 with Ubuntu 14.02"
 date: 2015-07-10 15:30:03 +0800
 comments: true
-categories: articles
-tags:
+categories:
  - Server
  - DB
 

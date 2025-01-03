@@ -5,8 +5,7 @@ layout: post
 slug: remove-svn-info-from-a-folder
 title: Remove SVN info from a folder
 wordpress_id: 143
-categories: articles
-tags:
+categories:
 - Script
 tags:
 - Info

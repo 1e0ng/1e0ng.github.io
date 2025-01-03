@@ -5,8 +5,7 @@ layout: post
 slug: always-clear-the-float
 title: Always "Clear" The "Float"
 wordpress_id: 974
-categories: articles
-tags:
+categories:
 - Frontend
 - CSS
 

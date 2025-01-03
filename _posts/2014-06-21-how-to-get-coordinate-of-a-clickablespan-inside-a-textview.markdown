@@ -3,8 +3,7 @@ layout: post
 title: "How to get coordinate of a ClickableSpan inside a TextView"
 date: 2014-06-21 16:14:06 +0800
 comments: true
-categories: articles
-tags:
+categories:
 - Android
 - Java
 

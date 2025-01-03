@@ -3,8 +3,7 @@ layout: post
 title: "Compile Customized Vim on Mac OS"
 date: 2015-06-23 18:11:23 +0800
 comments: true
-categories: articles
-tags:
+categories:
 - Tools
 ---
 

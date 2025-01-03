@@ -3,8 +3,7 @@ layout: post
 title: "9 most useful Jenkins plugins"
 date: 2016-01-16 11:48:19 +0800
 comments: true
-categories: articles
-tags:
+categories:
 - ci
 ---
 

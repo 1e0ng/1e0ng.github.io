@@ -3,8 +3,7 @@ layout: post
 title: "Upload File With HTML5"
 date: 2013-10-28 21:03
 comments: true
-categories: articles
-tags:
+categories:
 - Web
 - Python
 

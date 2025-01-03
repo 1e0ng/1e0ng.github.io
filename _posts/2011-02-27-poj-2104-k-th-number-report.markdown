@@ -5,8 +5,7 @@ layout: post
 slug: poj-2104-k-th-number-report
 title: POJ 2104 K-th Number Report
 wordpress_id: 318
-categories: articles
-tags:
+categories:
 - Problems
 post_format:
 - Gallery

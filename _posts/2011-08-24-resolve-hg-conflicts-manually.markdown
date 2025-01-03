@@ -5,8 +5,7 @@ layout: post
 slug: resolve-hg-conflicts-manually
 title: Resolve Hg Conflicts Manually
 wordpress_id: 729
-categories: articles
-tags:
+categories:
 - Skills
 - Hg
 

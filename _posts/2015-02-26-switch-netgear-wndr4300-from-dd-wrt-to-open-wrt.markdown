@@ -3,8 +3,7 @@ layout: post
 title: "Switch Netgear WNDR4300 from DD-WRT to Open-WRT"
 date: 2015-02-26 00:57:58 +0800
 comments: true
-categories: articles
-tags:
+categories:
 - Network
 ---
 

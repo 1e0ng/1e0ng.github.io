@@ -5,8 +5,7 @@ layout: post
 slug: how-to-record-time-in-c
 title: How to record time in C++?
 wordpress_id: 218
-categories: articles
-tags:
+categories:
 - C
 tags:
 - C++

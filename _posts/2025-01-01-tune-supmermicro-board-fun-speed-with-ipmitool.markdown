@@ -3,8 +3,7 @@ layout: post
 title: "Tune Supmermicro Board Fun Speed With ipmitool"
 date: 2025-01-01 22:54:38 +0800
 comments: true
-categories: articles
-tags:
+categories:
 - Server
 ---
 

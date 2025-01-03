@@ -3,8 +3,7 @@ layout: post
 title: "Understanding Python's Metaclass"
 date: 2013-10-30 15:20
 comments: true
-categories: articles
-tags:
+categories:
 - Python
 
 ---

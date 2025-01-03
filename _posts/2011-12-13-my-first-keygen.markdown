@@ -5,8 +5,7 @@ layout: post
 slug: my-first-keygen
 title: My First Keygen
 wordpress_id: 880
-categories: articles
-tags:
+categories:
 - Security
 ---
 

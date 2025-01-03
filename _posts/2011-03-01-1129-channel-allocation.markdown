@@ -5,8 +5,7 @@ layout: post
 slug: poj-1129-channel-allocation
 title: POJ 1129 Channel Allocation Report
 wordpress_id: 357
-categories: articles
-tags:
+categories:
 - Problems
 tags:
 - '1129'

@@ -3,8 +3,7 @@ layout: post
 title: "Proxy All TCP Traffic On a Remote Server"
 date: 2016-03-01 10:39:09 +0800
 comments: true
-categories: articles
-tags:
+categories:
 - Server
 - Operation
 - Linux

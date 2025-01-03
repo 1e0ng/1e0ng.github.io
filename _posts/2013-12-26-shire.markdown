@@ -3,8 +3,7 @@ layout: post
 title: "Shire - A Framework Based On Tornado Web & MongoDB"
 date: 2013-12-25 23:57:14 -0600
 comments: true
-categories: articles
-tags:
+categories:
 - Python
 - Web
 

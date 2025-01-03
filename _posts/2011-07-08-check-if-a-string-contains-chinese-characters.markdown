@@ -5,8 +5,7 @@ layout: post
 slug: check-if-a-string-contains-chinese-characters
 title: Check If a String Contains Chinese Characters
 wordpress_id: 678
-categories: articles
-tags:
+categories:
 - Python
 tags:
 - Character
