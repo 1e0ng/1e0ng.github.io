@@ -3,8 +3,8 @@ layout: post
 title: "Snipet to Insert HTML at Caret"
 date: 2013-07-30 10:27
 comments: true
-categories: 
-- javascript
+categories:
+- Javascript
 ---
 
 Here is a js snipte to insert html at caret. It is a cross-browser solution, so you don't need to use the `execCommand` to call `insertHTML` or `pasteHTML`.

@@ -5,7 +5,7 @@ date: 2016-01-01 00:17:38 +0800
 comments: true
 categories:
 - Python
-- security
+- Security
 ---
 
 Bitbucket Server, Jira, Confluence, Crowd etc, so many excellent software come from a same company --- Atlassian. Some of them are technically designed well (even though not best), so they are good study cases. These days I'm interested in the license generating algorithm, so I dig into them for studying. Its license algorithm is DSA. Theoritically, it's impossible to know the private key, so the private key can be think as unknown and safe. Without private key, it's impossible to generate the corresponding signature for raw text. In this way, it makes sure that every issued license is from the owner.

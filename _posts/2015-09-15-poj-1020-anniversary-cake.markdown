@@ -4,7 +4,7 @@ title: "POJ 1020 Anniversary Cake"
 date: 2015-09-15 23:42:56 +0800
 comments: true
 categories:
-- problems
+- Problems
 ---
 
 This is a simple search problem. With some pruning job it's sufficient to pass test cases.
