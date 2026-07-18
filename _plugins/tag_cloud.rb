@@ -59,8 +59,15 @@ module Jekyll
       lists = {}
       max, min = 1, 1
       config = context.registers[:site].config
-      #category_dir = config['root'] + config['category_dir'] + '/'
-      category_dir = config['baseurl'] + config['category_dir'] + '/'
+      # Build an absolute path from the site root. The Pages deploy
+      # workflow runs `jekyll build --baseurl ""` (actions/configure-pages
+      # base_path is empty for an apex custom domain), which OVERRIDES
+      # _config.yml's `baseurl: "/"` — so `config['baseurl'] + ...` came
+      # out as a bare relative "topics/..." in production, resolving to
+      # /posts/<slug>/topics/<tag> (404) on every post page. File.join
+      # with a leading '/' yields "/topics/..." whether baseurl is "",
+      # "/", or "/subpath".
+      category_dir = File.join('/', config['baseurl'].to_s, config['category_dir']) + '/'
       categories = context.registers[:site].categories
       categories.keys.sort_by{ |str| str.downcase }.each do |category|
         count = categories[category].count
@@ -96,7 +103,10 @@ module Jekyll
     def render(context)
       html = ""
       config = context.registers[:site].config
-      category_dir = config['root'] + config['category_dir'] + '/'
+      # Same absolute-path construction as TagCloud above; `config['root']`
+      # isn't defined in _config.yml, so the old line would raise if this
+      # tag were ever used.
+      category_dir = File.join('/', config['baseurl'].to_s, config['category_dir']) + '/'
       categories = context.registers[:site].categories
       categories.keys.sort_by{ |str| str.downcase }.each do |category|
         url = category_dir + category.gsub(/_|\P{Word}/, '-').gsub(/-{2,}/, '-').downcase
